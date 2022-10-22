@@ -2,10 +2,7 @@
 !.gitignore
 .idea
 .vscode
-<<<<<<< HEAD
 webServer/vendor/*
 rocketmq
 mysql
 nacos
-=======
->>>>>>> 3a85091 (0.0.1)
