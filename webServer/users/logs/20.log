@@ -1,2 +1,0 @@
-2022-03-20T00:15:01.457+0800	INFO	initialize/consul.go:29	user-web服务注册成功
-2022-03-20T00:15:06.761+0800	INFO	initialize/consul.go:43	user-web服务注销成功

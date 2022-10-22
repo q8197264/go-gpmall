@@ -1,7 +1,0 @@
-2022-10-03T21:38:32.963+0800	DPANIC	initialize/grpc.go:49	failed to build resolver: Wrong consul URL: Malformed URL('consul://:0/'). Must be in the next format: 'consul://[user:passwd]@host/service?param=value'
-webServer/order/initialize.InitGrpcClient
-	/Users/www/learn-note/gpmall/webServer/order/initialize/grpc.go:49
-main.main
-	/Users/www/learn-note/gpmall/webServer/order/main.go:15
-runtime.main
-	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225

@@ -1,9 +1,0 @@
-2022-08-08T23:12:41.213+0800	DPANIC	initialize/nacos.go:52	read config from both server and cache fail
-webServer/inventory/initialize.InitNacos
-	/Users/www/learn-note/gpmall/webServer/inventory/initialize/nacos.go:52
-main.main
-	/Users/www/learn-note/gpmall/webServer/inventory/main.go:17
-runtime.main
-	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
-2022-08-08T23:42:51.926+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: 2dcc5dc4-2417-442f-a138-6ff9100137ff
-2022-08-08T23:43:39.327+0800	DEBUG	initialize/consul.go:48	inventory-web 服务注销成功: 2dcc5dc4-2417-442f-a138-6ff9100137ff

@@ -1,4 +1,0 @@
-1.665761472664282e+09	info	initialize/consul.go:31	goods-web服务注册成功
-1.665761472670738e+09	info	goods/main.go:37	web商品服务启动:192.168.31.106:5354
-1.665763672951555e+09	info	consul/Register.go:68	goods-web 服务注销成功
-1.6657636729574451e+09	info	initialize/consul.go:47	goods-web服务注销success

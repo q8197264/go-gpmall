@@ -1,5 +1,0 @@
-2022-10-13 13:19:39.208 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.31.106:4344
-2022-10-13 13:19:47.432 | INFO     | handler.goods:_get_proto_stub:52 - ('cannot unpack non-iterable NoneType object',)
-2022-10-13 13:20:04.829 | INFO     | handler.goods:_get_proto_stub:52 - ('cannot unpack non-iterable NoneType object',)
-2022-10-13 19:00:58.646 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.31.106
-2022-10-13 19:06:40.780 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.31.106:4344

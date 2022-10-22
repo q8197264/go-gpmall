@@ -1,8 +1,0 @@
-name: "userop-web"
-host: "192.168.8.222"
-port: 8848
-user: "nacos"
-password: "nacos"
-namespace: "c8b504c3-686d-4c9a-9e6d-2e425d15d9f4"
-dataid: "userop-web.json"
-group: "dev"

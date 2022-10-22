@@ -1,2 +1,0 @@
-2022-08-14T00:06:29.297+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: 1ab94db6-28f3-4235-9f50-dc05bf148de7
-2022-08-14T00:06:33.180+0800	DEBUG	initialize/consul.go:48	inventory-web 服务注销成功: 1ab94db6-28f3-4235-9f50-dc05bf148de7
