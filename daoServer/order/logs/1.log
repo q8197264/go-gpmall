@@ -1,0 +1,269 @@
+2022-08-10 22:14:10.073 | ERROR    | __main__:<module>:105 - An error has been caught in function '<module>', process 'MainProcess' (58981), thread 'MainThread' (4510406144):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/tests/order_client.py", line 105, in <module>
+    c.QueryOrderDetail(4)
+    │ └ <function client.QueryOrderDetail at 0x7fdb2cad81f0>
+    └ <__main__.client object at 0x7fdb2cab8f10>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/tests/order_client.py", line 75, in QueryOrderDetail
+    res = c.client.QueryOrderDetail(order_pb2.OrderRequest(
+          │                         │         └ <class 'order_pb2.OrderRequest'>
+          │                         └ <module 'order.proto.order_pb2' from '/Users/www/learn-note/gpmall/daoServer/order/proto/order_pb2.py'>
+          └ <__main__.client object at 0x7fdb2cab8f10>
+
+AttributeError: 'client' object has no attribute 'client'
+
+
+2022-08-11 01:32:39.334 | ERROR    | __main__:<module>:105 - An error has been caught in function '<module>', process 'MainProcess' (69617), thread 'MainThread' (4793026048):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/tests/order_client.py", line 105, in <module>
+    c.QueryOrderDetail(4)
+    │ └ <function client.QueryOrderDetail at 0x7f888ef191f0>
+    └ <__main__.client object at 0x7f888ef17160>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/tests/order_client.py", line 75, in QueryOrderDetail
+    res = c.client.QueryOrderDetail(order_pb2.OrderRequest(
+          │ │      │                │         └ <class 'order_pb2.OrderRequest'>
+          │ │      │                └ <module 'order.proto.order_pb2' from '/Users/www/learn-note/gpmall/daoServer/order/proto/order_pb2.py'>
+          │ │      └ <grpc_opentracing.grpcext._interceptor._InterceptorUnaryUnaryMultiCallable object at 0x7f888efa2070>
+          │ └ <order.proto.order_pb2_grpc.OrderStub object at 0x7f888ef58280>
+          └ <__main__.client object at 0x7f888ef17160>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc_opentracing/grpcext/_interceptor.py", line 34, in __call__
+    return self._interceptor.intercept_unary(request, metadata, client_info,
+           │    │            │               │        │         └ _UnaryClientInfo(full_method='/Order/QueryOrderDetail', timeout=3)
+           │    │            │               │        └ None
+           │    │            │               └ id: 4
+           │    │            │                 
+           │    │            └ <function OpenTracingClientInterceptor.intercept_unary at 0x7f888ef5da60>
+           │    └ <grpc_opentracing._client.OpenTracingClientInterceptor object at 0x7f888ef33b20>
+           └ <grpc_opentracing.grpcext._interceptor._InterceptorUnaryUnaryMultiCallable object at 0x7f888efa2070>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc_opentracing/_client.py", line 138, in intercept_unary
+    result = invoker(request, metadata)
+             │       │        └ (('uber-trace-id', '727ea0f4b4b93b50:5ca94b8710ff0fcc:0:1'),)
+             │       └ id: 4
+             │         
+             └ <function _InterceptorUnaryUnaryMultiCallable.__call__.<locals>.invoker at 0x7f888efa7310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc_opentracing/grpcext/_interceptor.py", line 31, in invoker
+    return self._base_callable(request, timeout, metadata, credentials)
+           │    │              │        │        │         └ None
+           │    │              │        │        └ (('uber-trace-id', '727ea0f4b4b93b50:5ca94b8710ff0fcc:0:1'),)
+           │    │              │        └ 3
+           │    │              └ id: 4
+           │    │                
+           │    └ <grpc._interceptor._UnaryUnaryMultiCallable object at 0x7f888ef9d310>
+           └ <grpc_opentracing.grpcext._interceptor._InterceptorUnaryUnaryMultiCallable object at 0x7f888efa2070>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_interceptor.py", line 216, in __call__
+    response, ignored_call = self._with_call(request,
+                             │    │          └ id: 4
+                             │    │            
+                             │    └ <function _UnaryUnaryMultiCallable._with_call at 0x7f888ef93ca0>
+                             └ <grpc._interceptor._UnaryUnaryMultiCallable object at 0x7f888ef9d310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_interceptor.py", line 257, in _with_call
+    return call.result(), call
+           │    │         └ <_InactiveRpcError of RPC that terminated with:
+           │    │           	status = StatusCode.UNAVAILABLE
+           │    │           	details = "failed to connect to all address...
+           │    └ <function _InactiveRpcError.result at 0x7f888ef79310>
+           └ <_InactiveRpcError of RPC that terminated with:
+             	status = StatusCode.UNAVAILABLE
+             	details = "failed to connect to all address...
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 343, in result
+    raise self
+          └ <_InactiveRpcError of RPC that terminated with:
+            	status = StatusCode.UNAVAILABLE
+            	details = "failed to connect to all address...
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_interceptor.py", line 241, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     │    │      └ '/Order/QueryOrderDetail'
+                     │    └ <function _Channel.unary_unary.<locals>.<lambda> at 0x7f888efa7160>
+                     └ <grpc._interceptor._UnaryUnaryMultiCallable object at 0x7f888ef9d310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 957, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7f888efa6740>
+           │                            └ <grpc._channel._RPCState object at 0x7f888efa26a0>
+           └ <function _end_unary_response_blocking at 0x7f888ef83e50>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7f888efa26a0>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses"
+	debug_error_string = "{"created":"@1660152759.331037000","description":"Failed to pick subchannel","file":"src/core/ext/filters/client_channel/client_channel.cc","file_line":3159,"referenced_errors":[{"created":"@1660152759.331036000","description":"failed to connect to all addresses","file":"src/core/lib/transport/error_utils.cc","file_line":147,"grpc_status":14}]}"
+>
+
+
+2022-08-11 04:00:59.960 | ERROR    | __main__:<module>:115 - An error has been caught in function '<module>', process 'MainProcess' (78489), thread 'MainThread' (4490421760):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/tests/order_client.py", line 115, in <module>
+    c.QueryOrderDetail(4)
+    │ └ <function client.QueryOrderDetail at 0x7fef452d9280>
+    └ <__main__.client object at 0x7fef452c1310>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/tests/order_client.py", line 79, in QueryOrderDetail
+    res = c.client.QueryOrderDetail(order_pb2.OrderRequest(
+          │ │      │                │         └ <class 'order_pb2.OrderRequest'>
+          │ │      │                └ <module 'order.proto.order_pb2' from '/Users/www/learn-note/gpmall/daoServer/order/proto/order_pb2.py'>
+          │ │      └ <grpc_opentracing.grpcext._interceptor._InterceptorUnaryUnaryMultiCallable object at 0x7fef454664f0>
+          │ └ <order.proto.order_pb2_grpc.OrderStub object at 0x7fef45416460>
+          └ <__main__.client object at 0x7fef452c1310>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc_opentracing/grpcext/_interceptor.py", line 34, in __call__
+    return self._interceptor.intercept_unary(request, metadata, client_info,
+           │    │            │               │        │         └ _UnaryClientInfo(full_method='/Order/QueryOrderDetail', timeout=3)
+           │    │            │               │        └ None
+           │    │            │               └ id: 4
+           │    │            │                 
+           │    │            └ <function OpenTracingClientInterceptor.intercept_unary at 0x7fef45417af0>
+           │    └ <grpc_opentracing._client.OpenTracingClientInterceptor object at 0x7fef452f2760>
+           └ <grpc_opentracing.grpcext._interceptor._InterceptorUnaryUnaryMultiCallable object at 0x7fef454664f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc_opentracing/_client.py", line 138, in intercept_unary
+    result = invoker(request, metadata)
+             │       │        └ (('uber-trace-id', 'ad327aa03f659d17:1cca053a6a6901ee:0:1'),)
+             │       └ id: 4
+             │         
+             └ <function _InterceptorUnaryUnaryMultiCallable.__call__.<locals>.invoker at 0x7fef4546a3a0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc_opentracing/grpcext/_interceptor.py", line 31, in invoker
+    return self._base_callable(request, timeout, metadata, credentials)
+           │    │              │        │        │         └ None
+           │    │              │        │        └ (('uber-trace-id', 'ad327aa03f659d17:1cca053a6a6901ee:0:1'),)
+           │    │              │        └ 3
+           │    │              └ id: 4
+           │    │                
+           │    └ <grpc._interceptor._UnaryUnaryMultiCallable object at 0x7fef45466550>
+           └ <grpc_opentracing.grpcext._interceptor._InterceptorUnaryUnaryMultiCallable object at 0x7fef454664f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_interceptor.py", line 216, in __call__
+    response, ignored_call = self._with_call(request,
+                             │    │          └ id: 4
+                             │    │            
+                             │    └ <function _UnaryUnaryMultiCallable._with_call at 0x7fef45456d30>
+                             └ <grpc._interceptor._UnaryUnaryMultiCallable object at 0x7fef45466550>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_interceptor.py", line 257, in _with_call
+    return call.result(), call
+           │    │         └ <_InactiveRpcError of RPC that terminated with:
+           │    │           	status = StatusCode.INTERNAL
+           │    │           	details = "Failed to serialize response!"
+           │    │           	deb...
+           │    └ <function _InactiveRpcError.result at 0x7fef454373a0>
+           └ <_InactiveRpcError of RPC that terminated with:
+             	status = StatusCode.INTERNAL
+             	details = "Failed to serialize response!"
+             	deb...
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 343, in result
+    raise self
+          └ <_InactiveRpcError of RPC that terminated with:
+            	status = StatusCode.INTERNAL
+            	details = "Failed to serialize response!"
+            	deb...
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_interceptor.py", line 241, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     │    │      └ '/Order/QueryOrderDetail'
+                     │    └ <function _Channel.unary_unary.<locals>.<lambda> at 0x7fef4546a1f0>
+                     └ <grpc._interceptor._UnaryUnaryMultiCallable object at 0x7fef45466550>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 957, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7fef45467840>
+           │                            └ <grpc._channel._RPCState object at 0x7fef45466880>
+           └ <function _end_unary_response_blocking at 0x7fef45443ee0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7fef45466880>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INTERNAL
+	details = "Failed to serialize response!"
+	debug_error_string = "{"created":"@1660161659.958149000","description":"Error received from peer ipv4:192.168.8.222:4347","file":"src/core/lib/surface/call.cc","file_line":1070,"grpc_message":"Failed to serialize response!","grpc_status":13}"
+>
+
+
+2022-08-11 04:02:03.928 | ERROR    | __main__:<module>:115 - An error has been caught in function '<module>', process 'MainProcess' (78557), thread 'MainThread' (4369151488):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/tests/order_client.py", line 115, in <module>
+    c.QueryOrderDetail(4)
+    │ └ <function client.QueryOrderDetail at 0x7f92fef19280>
+    └ <__main__.client object at 0x7f92fef01310>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/tests/order_client.py", line 79, in QueryOrderDetail
+    res = c.client.QueryOrderDetail(order_pb2.OrderRequest(
+          │ │      │                │         └ <class 'order_pb2.OrderRequest'>
+          │ │      │                └ <module 'order.proto.order_pb2' from '/Users/www/learn-note/gpmall/daoServer/order/proto/order_pb2.py'>
+          │ │      └ <grpc_opentracing.grpcext._interceptor._InterceptorUnaryUnaryMultiCallable object at 0x7f92fefa64f0>
+          │ └ <order.proto.order_pb2_grpc.OrderStub object at 0x7f92fef56460>
+          └ <__main__.client object at 0x7f92fef01310>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc_opentracing/grpcext/_interceptor.py", line 34, in __call__
+    return self._interceptor.intercept_unary(request, metadata, client_info,
+           │    │            │               │        │         └ _UnaryClientInfo(full_method='/Order/QueryOrderDetail', timeout=3)
+           │    │            │               │        └ None
+           │    │            │               └ id: 4
+           │    │            │                 
+           │    │            └ <function OpenTracingClientInterceptor.intercept_unary at 0x7f92fef57af0>
+           │    └ <grpc_opentracing._client.OpenTracingClientInterceptor object at 0x7f92fef32b80>
+           └ <grpc_opentracing.grpcext._interceptor._InterceptorUnaryUnaryMultiCallable object at 0x7f92fefa64f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc_opentracing/_client.py", line 138, in intercept_unary
+    result = invoker(request, metadata)
+             │       │        └ (('uber-trace-id', '541db3d115d788bc:238850b007f60a27:0:1'),)
+             │       └ id: 4
+             │         
+             └ <function _InterceptorUnaryUnaryMultiCallable.__call__.<locals>.invoker at 0x7f92fefaa3a0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc_opentracing/grpcext/_interceptor.py", line 31, in invoker
+    return self._base_callable(request, timeout, metadata, credentials)
+           │    │              │        │        │         └ None
+           │    │              │        │        └ (('uber-trace-id', '541db3d115d788bc:238850b007f60a27:0:1'),)
+           │    │              │        └ 3
+           │    │              └ id: 4
+           │    │                
+           │    └ <grpc._interceptor._UnaryUnaryMultiCallable object at 0x7f92fefa6550>
+           └ <grpc_opentracing.grpcext._interceptor._InterceptorUnaryUnaryMultiCallable object at 0x7f92fefa64f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_interceptor.py", line 216, in __call__
+    response, ignored_call = self._with_call(request,
+                             │    │          └ id: 4
+                             │    │            
+                             │    └ <function _UnaryUnaryMultiCallable._with_call at 0x7f92fef96d30>
+                             └ <grpc._interceptor._UnaryUnaryMultiCallable object at 0x7f92fefa6550>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_interceptor.py", line 257, in _with_call
+    return call.result(), call
+           │    │         └ <_InactiveRpcError of RPC that terminated with:
+           │    │           	status = StatusCode.INTERNAL
+           │    │           	details = "Failed to serialize response!"
+           │    │           	deb...
+           │    └ <function _InactiveRpcError.result at 0x7f92fef773a0>
+           └ <_InactiveRpcError of RPC that terminated with:
+             	status = StatusCode.INTERNAL
+             	details = "Failed to serialize response!"
+             	deb...
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 343, in result
+    raise self
+          └ <_InactiveRpcError of RPC that terminated with:
+            	status = StatusCode.INTERNAL
+            	details = "Failed to serialize response!"
+            	deb...
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_interceptor.py", line 241, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     │    │      └ '/Order/QueryOrderDetail'
+                     │    └ <function _Channel.unary_unary.<locals>.<lambda> at 0x7f92fefaa1f0>
+                     └ <grpc._interceptor._UnaryUnaryMultiCallable object at 0x7f92fefa6550>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 957, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7f92fefa76c0>
+           │                            └ <grpc._channel._RPCState object at 0x7f92fefa6880>
+           └ <function _end_unary_response_blocking at 0x7f92fef83ee0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7f92fefa6880>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INTERNAL
+	details = "Failed to serialize response!"
+	debug_error_string = "{"created":"@1660161723.923342000","description":"Error received from peer ipv4:192.168.8.222:4347","file":"src/core/lib/surface/call.cc","file_line":1070,"grpc_message":"Failed to serialize response!","grpc_status":13}"
+>
+
+

@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+option go_package=".;proto";
+import "google/protobuf/empty.proto";
+
+service Post {
+    // 留言
+    rpc AddPost(UserPostRequest)returns(google.protobuf.Empty);
+    rpc QueryPostList(UserPostFilterRequest)returns(PostListResponse);
+}
+
+message UserPostFilterRequest {
+    int32 user_id = 1;
+    int32 page = 2;
+    int32 limit = 3;
+}
+
+message UserPostRequest {
+    int32 id = 1;
+    int32 user_id = 2;
+    int32 type = 3;
+    string subject = 4;
+    string message =5;
+    string file = 6;
+}
+
+message PostInfoResponse{
+    int32 id = 1;
+    int32 user_id = 2;
+    int32 type = 3;
+    string subject = 4;
+    string message = 5;
+    string file = 6;
+}
+
+message PostListResponse {
+    int32 total = 1;
+    repeated PostInfoResponse data = 2;
+}

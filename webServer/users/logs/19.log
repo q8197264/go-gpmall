@@ -1,0 +1,103 @@
+2022-02-19T12:20:14.160+0800	INFO	initialize/consul.go:29	user-web服务注册成功
+2022-02-19T12:51:11.041+0800	INFO	initialize/consul.go:43	user-web服务注销成功
+2022-02-19T12:51:15.420+0800	WARN	initialize/consul.go:27	Unexpected response code: 400 (Invalid service address)服务注册失败: %!s(MISSING)
+user/users/initialize.ServiceRegister
+	/Users/www/learn-note/gpmall/webServer/user/users/initialize/consul.go:27
+main.main
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:28
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-02-19T12:51:32.521+0800	DEBUG	api/user.go:396	grpc错误: NotFound => 用户不存在!
+2022-02-19T12:52:15.142+0800	DEBUG	api/user.go:396	grpc错误: NotFound => 用户不存在!
+2022-02-19T14:11:38.320+0800	WARN	initialize/consul.go:41	Unexpected response code: 404 (Unknown service "c6b3def0-af6c-4128-b75b-974ddf542e60")服务注销失败: %!s(MISSING)
+user/users/initialize.ServiceDeRegister
+	/Users/www/learn-note/gpmall/webServer/user/users/initialize/consul.go:41
+main.exit
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:58
+main.main
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:50
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-02-19T14:12:02.076+0800	WARN	initialize/consul.go:27	Unexpected response code: 400 (Invalid service address)服务注册失败: %!s(MISSING)
+user/users/initialize.ServiceRegister
+	/Users/www/learn-note/gpmall/webServer/user/users/initialize/consul.go:27
+main.main
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:28
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-02-19T14:13:44.893+0800	WARN	initialize/consul.go:41	Unexpected response code: 404 (Unknown service "d66df86c-359a-47ab-92de-ae9df27d18a8")服务注销失败: %!s(MISSING)
+user/users/initialize.ServiceDeRegister
+	/Users/www/learn-note/gpmall/webServer/user/users/initialize/consul.go:41
+main.exit
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:58
+main.main
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:50
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-02-19T14:17:31.813+0800	WARN	initialize/consul.go:27	Unexpected response code: 400 (Invalid service address)服务注册失败: %!s(MISSING)
+user/users/initialize.ServiceRegister
+	/Users/www/learn-note/gpmall/webServer/user/users/initialize/consul.go:27
+main.main
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:28
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-02-19T14:19:08.290+0800	DEBUG	api/user.go:399	grpc错误: AlreadyExists => 用户已存在!
+2022-02-19T14:22:56.565+0800	WARN	initialize/consul.go:41	Unexpected response code: 404 (Unknown service "5de771c8-b5e7-4f3f-9115-b33bb221b4ab")服务注销失败: %!s(MISSING)
+user/users/initialize.ServiceDeRegister
+	/Users/www/learn-note/gpmall/webServer/user/users/initialize/consul.go:41
+main.exit
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:58
+main.main
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:50
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-02-19T16:58:15.041+0800	WARN	initialize/consul.go:27	Unexpected response code: 400 (Invalid service address)服务注册失败: %!s(MISSING)
+user/users/initialize.ServiceRegister
+	/Users/www/learn-note/gpmall/webServer/user/users/initialize/consul.go:27
+main.main
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:28
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-02-19T17:01:36.436+0800	WARN	initialize/consul.go:41	Unexpected response code: 404 (Unknown service "732c2cf2-a13d-4690-8334-f76073653e34")服务注销失败: %!s(MISSING)
+user/users/initialize.ServiceDeRegister
+	/Users/www/learn-note/gpmall/webServer/user/users/initialize/consul.go:41
+main.exit
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:58
+main.main
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:50
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-02-19T19:02:21.218+0800	WARN	initialize/consul.go:27	Unexpected response code: 400 (Invalid service address)服务注册失败: %!s(MISSING)
+user/users/initialize.ServiceRegister
+	/Users/www/learn-note/gpmall/webServer/user/users/initialize/consul.go:27
+main.main
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:28
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-02-19T20:55:18.091+0800	WARN	initialize/consul.go:41	Unexpected response code: 404 (Unknown service "d43549c9-9ccd-4245-a91e-aa14cd3c9d53")服务注销失败: %!s(MISSING)
+user/users/initialize.ServiceDeRegister
+	/Users/www/learn-note/gpmall/webServer/user/users/initialize/consul.go:41
+main.exit
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:58
+main.main
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:50
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-02-19T23:05:40.757+0800	WARN	initialize/consul.go:27	Unexpected response code: 400 (Invalid service address)服务注册失败: %!s(MISSING)
+user/users/initialize.ServiceRegister
+	/Users/www/learn-note/gpmall/webServer/user/users/initialize/consul.go:27
+main.main
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:28
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-02-19T23:06:19.229+0800	DEBUG	api/user.go:400	grpc错误: NotFound => 用户不存在!
+2022-02-19T23:08:03.588+0800	DEBUG	api/user.go:400	grpc错误: NotFound => 记录不存在:(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10' at line 9")
+2022-02-19T23:08:42.197+0800	WARN	initialize/consul.go:41	Unexpected response code: 404 (Unknown service "b68dfcde-e022-4711-a698-655f39ad115d")服务注销失败: %!s(MISSING)
+user/users/initialize.ServiceDeRegister
+	/Users/www/learn-note/gpmall/webServer/user/users/initialize/consul.go:41
+main.exit
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:58
+main.main
+	/Users/www/learn-note/gpmall/webServer/user/users/main.go:50
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225

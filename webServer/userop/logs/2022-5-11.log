@@ -1,0 +1,91 @@
+2022-05-11T03:45:02.890+0800	WARN	api/favorites.go:128	grpc错误:rpc error: code = Internal desc = 错误: ('page',)
+webServer/userop/api.printGrpcError
+	/Users/www/learn-note/gpmall/webServer/userop/api/favorites.go:128
+webServer/userop/api.(*post).List
+	/Users/www/learn-note/gpmall/webServer/userop/api/post.go:37
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/context.go:168
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/context.go:168
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/context.go:168
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/gin.go:555
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/gin.go:511
+net/http.serverHandler.ServeHTTP
+	/usr/local/Cellar/go/1.16.6/libexec/src/net/http/server.go:2867
+net/http.(*conn).serve
+	/usr/local/Cellar/go/1.16.6/libexec/src/net/http/server.go:1932
+2022-05-11T03:46:28.078+0800	WARN	api/favorites.go:128	grpc错误:rpc error: code = Internal desc = 错误: ('page',)
+webServer/userop/api.printGrpcError
+	/Users/www/learn-note/gpmall/webServer/userop/api/favorites.go:128
+webServer/userop/api.(*post).List
+	/Users/www/learn-note/gpmall/webServer/userop/api/post.go:37
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/context.go:168
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/context.go:168
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/context.go:168
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/gin.go:555
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/gin.go:511
+net/http.serverHandler.ServeHTTP
+	/usr/local/Cellar/go/1.16.6/libexec/src/net/http/server.go:2867
+net/http.(*conn).serve
+	/usr/local/Cellar/go/1.16.6/libexec/src/net/http/server.go:1932
+2022-05-11T16:24:36.407+0800	WARN	initialize/consul.go:31	[userop-web]服务注销失败... Unexpected response code: 404 (Unknown service "8c68bf6b-d731-4b49-9961-5376e8a121d0")
+webServer/userop/initialize.ServiceDeregister
+	/Users/www/learn-note/gpmall/webServer/userop/initialize/consul.go:31
+main.wait
+	/Users/www/learn-note/gpmall/webServer/userop/main.go:30
+main.main
+	/Users/www/learn-note/gpmall/webServer/userop/main.go:23
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-05-11T18:34:18.112+0800	WARN	initialize/consul.go:31	[userop-web]服务注销失败... Unexpected response code: 404 (Unknown service "c99fe746-e4be-4fa3-80a5-c5596355d704")
+webServer/userop/initialize.ServiceDeregister
+	/Users/www/learn-note/gpmall/webServer/userop/initialize/consul.go:31
+main.wait
+	/Users/www/learn-note/gpmall/webServer/userop/main.go:30
+main.main
+	/Users/www/learn-note/gpmall/webServer/userop/main.go:23
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-05-11T19:12:32.824+0800	WARN	api/common.go:46	grpc错误:rpc error: code = NotFound desc = 记录不存在:('没有收藏',)
+webServer/userop/api.printGrpcError
+	/Users/www/learn-note/gpmall/webServer/userop/api/common.go:46
+webServer/userop/api.(*fav).List
+	/Users/www/learn-note/gpmall/webServer/userop/api/favorites.go:37
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/context.go:168
+webServer/userop/middlewares.NewJwt.func1
+	/Users/www/learn-note/gpmall/webServer/userop/middlewares/jwt.go:38
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/context.go:168
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/context.go:168
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/context.go:168
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/gin.go:555
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/www/learn-note/gpmall/webServer/vendor/github.com/gin-gonic/gin/gin.go:511
+net/http.serverHandler.ServeHTTP
+	/usr/local/Cellar/go/1.16.6/libexec/src/net/http/server.go:2867
+net/http.(*conn).serve
+	/usr/local/Cellar/go/1.16.6/libexec/src/net/http/server.go:1932

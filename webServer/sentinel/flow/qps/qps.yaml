@@ -1,0 +1,7 @@
+version: "v1"
+sentinel:
+  app:
+    name: example-flow-qps-resource
+  log:
+    metric:
+      maxFileCount: 7

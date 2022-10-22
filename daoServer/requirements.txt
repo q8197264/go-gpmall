@@ -1,0 +1,7 @@
+peewee
+pymysql
+passlib
+grpcio
+grpc-tools
+protobuf
+loguru

@@ -1,0 +1,37 @@
+2022-08-16 06:04:44.621 | INFO     | __main__:server:39 - user-dao 服务启动：192.168.8.222:4343 ...
+2022-08-16 06:14:48.212 | ERROR    | __main__:<module>:122 - An error has been caught in function '<module>', process 'MainProcess' (50400), thread 'MainThread' (4402034176):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/server.py", line 122, in <module>
+    server()
+    └ <function server at 0x7fb3f4181550>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/server.py", line 49, in server
+    service_name=cfg['name'],
+
+UnboundLocalError: local variable 'cfg' referenced before assignment
+2022-08-16 06:15:26.658 | ERROR    | __main__:<module>:123 - An error has been caught in function '<module>', process 'MainProcess' (50439), thread 'MainThread' (4522661376):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/server.py", line 123, in <module>
+    server()
+    └ <function server at 0x7ff54fa81550>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/server.py", line 41, in server
+    print(cfg)
+
+UnboundLocalError: local variable 'cfg' referenced before assignment
+2022-08-16 06:15:36.773 | ERROR    | __main__:<module>:123 - An error has been caught in function '<module>', process 'MainProcess' (50451), thread 'MainThread' (4588705280):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/server.py", line 123, in <module>
+    server()
+    └ <function server at 0x7fd413b81550>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/server.py", line 41, in server
+    print(cfg)
+
+UnboundLocalError: local variable 'cfg' referenced before assignment
+2022-08-16 06:15:51.719 | INFO     | __main__:server:59 - user-dao 服务启动：192.168.8.222:4343 ...
+2022-08-16 06:16:01.975 | INFO     | __main__:server:58 - user-dao 服务启动：192.168.8.222:4343 ...
+2022-08-16 06:21:01.090 | INFO     | __main__:server:58 - user-dao 服务启动：192.168.8.222:4343 ...

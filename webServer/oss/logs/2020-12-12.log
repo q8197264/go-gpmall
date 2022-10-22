@@ -1,0 +1,286 @@
+2022-03-20T09:49:11.120+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T11:39:26.404+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T11:40:01.966+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T11:40:24.706+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T11:41:00.065+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T19:55:18.942+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T20:15:30.269+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T20:16:59.470+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T20:16:59.471+0800	DPANIC	initialize/nacos.go:24	=Config File "config" Not Found in "[]"
+webServer/oss/initialize.InitNacos
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/nacos.go:24
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:12
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-20T20:18:32.841+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T20:20:41.403+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T20:26:42.701+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T20:27:01.218+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T20:27:18.157+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T20:28:36.506+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T20:32:12.654+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T22:40:25.155+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T22:41:03.858+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T22:44:35.552+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:05:28.158+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:05:28.170+0800	DPANIC	initialize/nacos.go:92	获取配置失败：json: cannot unmarshal array into Go struct field ConsulConfig.Consul.Tags of type string
+webServer/oss/initialize.InitNacos
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/nacos.go:92
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:14
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-20T23:07:47.270+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:07:47.281+0800	DPANIC	initialize/nacos.go:92	获取配置失败：json: cannot unmarshal array into Go struct field ConsulConfig.Consul.Tags of type string
+webServer/oss/initialize.InitNacos
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/nacos.go:92
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:14
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-20T23:19:22.900+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:19:22.918+0800	DPANIC	initialize/nacos.go:92	获取配置失败：json: cannot unmarshal array into Go struct field ConsulConfig.consul.tags of type string
+webServer/oss/initialize.InitNacos
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/nacos.go:92
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:14
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-20T23:19:40.070+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:20:25.796+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:21:02.772+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:27:13.577+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:27:35.176+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:28:38.597+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:29:52.113+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:42:51.397+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:53:10.008+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:56:11.574+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:56:33.946+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:56:50.464+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:57:44.006+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:58:05.442+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:58:18.073+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:58:48.419+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:58:59.287+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:59:11.270+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-20T23:59:26.711+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-21T23:34:39.360+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-21T23:34:39.500+0800	WARN	initialize/consol.go:22	Put "http://:0/v1/agent/service/register": dial tcp :0: connect: can't assign requested address
+webServer/oss/initialize.Register
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/consol.go:22
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:19
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-21T23:35:32.303+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-21T23:35:32.321+0800	WARN	initialize/consol.go:22	Put "http://:0/v1/agent/service/register": dial tcp :0: connect: can't assign requested address
+webServer/oss/initialize.Register
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/consol.go:22
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:23
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-21T23:39:40.177+0800	DPANIC	initialize/consol.go:29	 服务注销失败: Put "http://:0/v1/agent/service/deregister/6f33f6c3-bc06-428f-bc8d-823db61d2a9b": dial tcp :0: connect: can't assign requested address
+webServer/oss/initialize.Deregister
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/consol.go:29
+main.exit
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:41
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:34
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-21T23:39:43.693+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-21T23:39:43.718+0800	WARN	initialize/consol.go:23	Put "http://:0/v1/agent/service/register": dial tcp :0: connect: can't assign requested address 服务注册失败
+webServer/oss/initialize.Register
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/consol.go:23
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:23
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-21T23:39:48.987+0800	DPANIC	initialize/consol.go:34	 服务注销失败: Put "http://:0/v1/agent/service/deregister/661d5bd8-690e-4c2e-9337-d7cda485f817": dial tcp :0: connect: can't assign requested address
+webServer/oss/initialize.Deregister
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/consol.go:34
+main.exit
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:41
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:34
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-21T23:46:47.560+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-21T23:46:47.576+0800	WARN	initialize/consol.go:23	 服务注册失败: Put "http://:0/v1/agent/service/register": dial tcp :0: connect: can't assign requested address
+webServer/oss/initialize.Register
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/consol.go:23
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:23
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-21T23:49:07.014+0800	DPANIC	initialize/consol.go:34	 服务注销失败: Put "http://:0/v1/agent/service/deregister/3d3cc217-ba63-4d85-a4b2-38a787caaf5c": dial tcp :0: connect: can't assign requested address
+webServer/oss/initialize.Deregister
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/consol.go:34
+main.exit
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:41
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:34
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-21T23:49:11.701+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-21T23:49:11.729+0800	WARN	initialize/consol.go:23	 服务注册失败: Put "http://:0/v1/agent/service/register": dial tcp :0: connect: can't assign requested address
+webServer/oss/initialize.Register
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/consol.go:23
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:23
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-21T23:50:05.287+0800	DPANIC	initialize/consol.go:34	 服务注销失败: Put "http://:0/v1/agent/service/deregister/76bd55ba-7728-4616-84ce-d2a40db71082": dial tcp :0: connect: can't assign requested address
+webServer/oss/initialize.Deregister
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/consol.go:34
+main.exit
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:41
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:34
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-21T23:50:08.934+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-21T23:50:08.950+0800	WARN	initialize/consol.go:23	 服务注册失败: Put "http://:0/v1/agent/service/register": dial tcp :0: connect: can't assign requested address
+webServer/oss/initialize.Register
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/consol.go:23
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:23
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-21T23:50:42.952+0800	DPANIC	initialize/consol.go:34	 服务注销失败: Put "http://:0/v1/agent/service/deregister/c5b66fa7-8a28-4323-b9c1-27c27754b4cf": dial tcp :0: connect: can't assign requested address
+webServer/oss/initialize.Deregister
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/consol.go:34
+main.exit
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:41
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:34
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-21T23:50:45.400+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-21T23:50:45.525+0800	INFO	initialize/consol.go:26	goods-web 服务注册成功
+2022-03-21T23:53:34.829+0800	DPANIC	initialize/consol.go:34	goods-web 服务注销失败: Unexpected response code: 404 (Unknown service "a275a189-0ae9-4d75-95b5-05dc7c5e4fbc")
+webServer/oss/initialize.Deregister
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/consol.go:34
+main.exit
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:41
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:34
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-21T23:53:47.565+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-21T23:53:47.590+0800	INFO	initialize/consol.go:26	goods-web 服务注册成功
+2022-03-21T23:55:22.489+0800	INFO	initialize/consol.go:37	goods-web 服务注销: af9aaaaf-cc24-4f2c-a08f-545c27a32bc5
+2022-03-22T00:02:02.709+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-22T00:02:02.732+0800	INFO	initialize/consol.go:26	goods-web 服务注册成功: fd7681f2-3ef7-4894-9dcf-f1bef0375f42
+2022-03-22T00:02:09.297+0800	INFO	initialize/consol.go:37	goods-web 服务注销: fd7681f2-3ef7-4894-9dcf-f1bef0375f42
+2022-03-22T00:02:37.217+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-22T00:02:37.232+0800	INFO	initialize/consol.go:26	goods-web 服务注册成功: ecae9cdc-5101-44c2-8be0-29cf363a15f1
+2022-03-22T00:02:40.917+0800	INFO	initialize/consol.go:37	goods-web 服务注销: ecae9cdc-5101-44c2-8be0-29cf363a15f1
+2022-03-22T00:10:15.969+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-22T00:10:16.002+0800	INFO	initialize/consol.go:26	goods-web 服务注册成功: bd61b497-d600-4dd8-b539-c2d07b17bc4d
+2022-03-22T00:10:32.563+0800	INFO	initialize/consol.go:37	goods-web 服务注销: bd61b497-d600-4dd8-b539-c2d07b17bc4d
+2022-03-22T22:19:47.121+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-22T22:19:47.125+0800	DPANIC	initialize/nacos.go:92	获取配置失败：unexpected end of JSON input
+webServer/oss/initialize.InitNacos
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/nacos.go:92
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:18
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-22T22:20:31.730+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-22T22:20:31.741+0800	DPANIC	initialize/nacos.go:92	获取配置失败：unexpected end of JSON input
+webServer/oss/initialize.InitNacos
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/nacos.go:92
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:18
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-22T22:20:36.675+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-22T22:20:36.683+0800	DPANIC	initialize/nacos.go:92	获取配置失败：unexpected end of JSON input
+webServer/oss/initialize.InitNacos
+	/Users/www/learn-note/gpmall/webServer/oss/initialize/nacos.go:92
+main.main
+	/Users/www/learn-note/gpmall/webServer/oss/main.go:18
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-22T22:21:25.761+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-22T22:21:26.095+0800	INFO	initialize/consol.go:26	goods-web 服务注册成功: 4794d46e-0062-441c-b491-23335eb55fa8
+2022-03-22T22:21:49.131+0800	INFO	initialize/consol.go:37	goods-web 服务注销: 4794d46e-0062-441c-b491-23335eb55fa8
+2022-03-22T23:28:42.108+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-22T23:28:42.259+0800	INFO	initialize/consol.go:26	goods-web 服务注册成功: 15dfcbe1-0b3c-4d65-928e-d39b27cde605
+2022-03-22T23:28:46.484+0800	INFO	initialize/consol.go:37	goods-web 服务注销: 15dfcbe1-0b3c-4d65-928e-d39b27cde605
+2022-03-23T12:26:46.530+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T12:26:46.800+0800	INFO	initialize/consol.go:26	goods-web 服务注册成功: af0f864b-f3dc-4068-a02f-185be1f50444
+2022-03-23T12:31:23.258+0800	INFO	initialize/consol.go:37	goods-web 服务注销: af0f864b-f3dc-4068-a02f-185be1f50444
+2022-03-23T12:31:27.239+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T12:31:27.285+0800	INFO	initialize/consol.go:26	goods-web 服务注册成功: cd1b5619-9925-498e-9296-facb97f01e53
+2022-03-23T12:37:42.590+0800	INFO	initialize/consol.go:37	goods-web 服务注销: cd1b5619-9925-498e-9296-facb97f01e53
+2022-03-23T12:41:48.750+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T12:41:48.785+0800	INFO	initialize/consol.go:26	goods-web 服务注册成功: b72096bc-9c26-4c61-9208-f9eebf1065ca
+2022-03-23T12:42:49.719+0800	INFO	initialize/consol.go:37	goods-web 服务注销: b72096bc-9c26-4c61-9208-f9eebf1065ca
+2022-03-23T12:42:52.255+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T12:42:52.288+0800	INFO	initialize/consol.go:26	goods-web 服务注册成功: 09dae099-9585-4f49-a99f-bfd67710a6cb
+2022-03-23T12:44:47.312+0800	INFO	initialize/consol.go:37	goods-web 服务注销: 09dae099-9585-4f49-a99f-bfd67710a6cb
+2022-03-23T12:44:50.211+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T12:44:50.244+0800	INFO	initialize/consol.go:26	goods-web 服务注册成功: 5603017a-233c-4ca8-95ed-415f0bff0b28
+2022-03-23T12:47:57.245+0800	INFO	initialize/consol.go:37	goods-web 服务注销: 5603017a-233c-4ca8-95ed-415f0bff0b28
+2022-03-23T12:48:00.167+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T12:48:00.193+0800	INFO	initialize/consol.go:26	goods-web 服务注册成功: 281aaba3-b9e6-41a5-b831-c3a318ee16b3
+2022-03-23T12:48:41.035+0800	INFO	initialize/consol.go:37	goods-web 服务注销: 281aaba3-b9e6-41a5-b831-c3a318ee16b3
+2022-03-23T12:48:43.983+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T12:48:44.008+0800	INFO	initialize/consol.go:26	goods-web 服务注册成功: 3a65e81c-3b6f-4583-a804-cbf921b767c4
+2022-03-23T12:53:24.901+0800	INFO	initialize/consol.go:37	goods-web 服务注销: 3a65e81c-3b6f-4583-a804-cbf921b767c4
+2022-03-23T13:05:01.244+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T13:05:01.267+0800	INFO	initialize/consol.go:26	upload-web 服务注册成功: 5df0df5a-7eeb-4d94-b15d-7b1e5d5bed4c
+2022-03-23T13:07:36.934+0800	INFO	initialize/consol.go:37	upload-web 服务注销: 5df0df5a-7eeb-4d94-b15d-7b1e5d5bed4c
+2022-03-23T13:07:41.405+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T13:07:41.429+0800	INFO	initialize/consol.go:26	upload-web 服务注册成功: cc89cdcd-f28d-4835-89ea-c1a3936ea26b
+2022-03-23T13:07:45.569+0800	INFO	initialize/consol.go:37	upload-web 服务注销: cc89cdcd-f28d-4835-89ea-c1a3936ea26b
+2022-03-23T13:08:38.139+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T13:08:38.162+0800	INFO	initialize/consol.go:26	upload-web 服务注册成功: e54a4f02-9b64-4e0f-acce-f5d2cc5824bb
+2022-03-23T13:08:45.753+0800	INFO	initialize/consol.go:37	upload-web 服务注销: e54a4f02-9b64-4e0f-acce-f5d2cc5824bb
+2022-03-23T13:11:21.029+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T13:11:21.053+0800	INFO	initialize/consol.go:26	upload-web 服务注册成功: ae7e4801-3294-455f-93c4-ddb78ca67e2e
+2022-03-23T13:11:24.191+0800	INFO	initialize/consol.go:37	upload-web 服务注销: ae7e4801-3294-455f-93c4-ddb78ca67e2e
+2022-03-23T13:16:02.245+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T13:16:02.264+0800	INFO	initialize/consol.go:26	upload-web 服务注册成功: 988c06fc-1970-4ca4-827a-a985bb3c2e97
+2022-03-23T13:16:45.796+0800	INFO	initialize/consol.go:37	upload-web 服务注销: 988c06fc-1970-4ca4-827a-a985bb3c2e97
+2022-03-23T13:17:06.246+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T13:17:06.269+0800	INFO	initialize/consol.go:26	upload-web 服务注册成功: 045fe243-4bd2-447e-b19a-c104e93fec73
+2022-03-23T15:12:57.222+0800	INFO	initialize/consol.go:37	upload-web 服务注销: 045fe243-4bd2-447e-b19a-c104e93fec73
+2022-03-23T15:13:01.771+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T15:13:01.800+0800	INFO	initialize/consol.go:26	upload-web 服务注册成功: d1dfcade-1d22-4ad9-b636-a45f2ad6dc19
+2022-03-23T15:13:19.781+0800	INFO	initialize/consol.go:37	upload-web 服务注销: d1dfcade-1d22-4ad9-b636-a45f2ad6dc19
+2022-03-23T15:13:30.619+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T15:13:30.648+0800	INFO	initialize/consol.go:26	upload-web 服务注册成功: 26c2b233-ed01-4586-8207-f71dacae286f
+2022-03-23T15:14:01.498+0800	INFO	initialize/consol.go:37	upload-web 服务注销: 26c2b233-ed01-4586-8207-f71dacae286f
+2022-03-23T15:17:16.387+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T15:17:16.413+0800	INFO	initialize/consol.go:26	upload-web 服务注册成功: 19ea03b1-7aa9-41ff-a806-726b81f99fd8
+2022-03-23T15:19:13.959+0800	INFO	initialize/consol.go:37	upload-web 服务注销: 19ea03b1-7aa9-41ff-a806-726b81f99fd8
+2022-03-23T15:19:17.364+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-03-23T15:19:17.390+0800	INFO	initialize/consol.go:26	upload-web 服务注册成功: 148d7385-5485-4812-942c-c2f96459d8bc
+2022-03-23T15:19:20.882+0800	INFO	initialize/consol.go:37	upload-web 服务注销: 148d7385-5485-4812-942c-c2f96459d8bc
+2022-08-14T00:06:42.789+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-08-14T00:06:42.818+0800	INFO	initialize/consol.go:25	upload-web 服务注册成功: ff4c12b2-2470-4537-832b-761337f317e1
+2022-08-14T00:11:53.584+0800	INFO	initialize/consol.go:36	upload-web 服务注销: ff4c12b2-2470-4537-832b-761337f317e1
+2022-08-14T00:11:58.398+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-08-14T00:11:58.427+0800	INFO	initialize/consol.go:25	upload-web 服务注册成功: 4ca3eafe-c0ea-4df5-bdb7-4f4ed6f3c853
+2022-08-14T00:13:03.823+0800	INFO	initialize/consol.go:36	upload-web 服务注销: 4ca3eafe-c0ea-4df5-bdb7-4f4ed6f3c853
+2022-08-14T02:22:23.033+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-08-14T02:22:23.365+0800	INFO	initialize/consol.go:25	upload-web 服务注册成功: 4e7ef899-b3e9-4560-9383-7d7add2eab39
+2022-08-14T02:22:48.141+0800	INFO	initialize/consol.go:36	upload-web 服务注销: 4e7ef899-b3e9-4560-9383-7d7add2eab39
+2022-08-14T02:22:52.862+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-08-14T02:22:52.899+0800	INFO	initialize/consol.go:25	upload-web 服务注册成功: 61c311f5-80fc-4b06-9d34-6a973b35e418
+2022-08-14T02:23:24.219+0800	INFO	initialize/consol.go:36	upload-web 服务注销: 61c311f5-80fc-4b06-9d34-6a973b35e418
+2022-08-14T02:23:27.498+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-08-14T02:23:27.535+0800	INFO	initialize/consol.go:25	upload-web 服务注册成功: 95ba9af7-72b8-46e7-9b82-ef8b214aa91c
+2022-08-14T02:23:35.184+0800	INFO	initialize/consol.go:36	upload-web 服务注销: 95ba9af7-72b8-46e7-9b82-ef8b214aa91c
+2022-08-14T02:23:51.511+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-08-14T02:23:51.535+0800	INFO	initialize/consol.go:25	upload-web 服务注册成功: f5cbdb6c-bcf5-4ed8-a2a2-3217875dc727
+2022-08-14T02:25:24.277+0800	INFO	initialize/consol.go:36	upload-web 服务注销: f5cbdb6c-bcf5-4ed8-a2a2-3217875dc727
+2022-08-14T02:25:38.918+0800	DEBUG	initialize/logger.go:24	日志模块初始化成功
+2022-08-14T02:25:38.936+0800	INFO	initialize/consol.go:25	upload-web 服务注册成功: 5bdb95ca-b250-4f88-add7-aff050ca302e
+2022-08-14T02:26:11.724+0800	INFO	initialize/consol.go:36	upload-web 服务注销: 5bdb95ca-b250-4f88-add7-aff050ca302e

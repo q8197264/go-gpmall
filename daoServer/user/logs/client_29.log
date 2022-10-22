@@ -1,0 +1,448 @@
+2022-01-29 22:14:28.390 | ERROR    | __main__:<module>:98 - An error has been caught in function '<module>', process 'MainProcess' (55212), thread 'MainThread' (4622224896):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 98, in <module>
+    client().getUserList(0,10)
+    └ <class '__main__.client'>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 61, in getUserList
+    rsp: user_pb2.UserListResponse = self.cli.GetUserList(user_pb2.PageRequest(
+         │        │                  │    │   │           │        └ <class 'user_pb2.PageRequest'>
+         │        │                  │    │   │           └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+         │        │                  │    │   └ <grpc._channel._UnaryUnaryMultiCallable object at 0x7fbb3b98e040>
+         │        │                  │    └ <proto.user_pb2_grpc.UserStub object at 0x7fbb3b97b3a0>
+         │        │                  └ <__main__.client object at 0x7fbb3b95c7f0>
+         │        └ <class 'user_pb2.UserListResponse'>
+         └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7fbb3b980040>
+           │                            └ <grpc._channel._RPCState object at 0x7fbb3b98edc0>
+           └ <function _end_unary_response_blocking at 0x7fbb3b996310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7fbb3b98edc0>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses"
+	debug_error_string = "{"created":"@1643465668.390614000","description":"Failed to pick subchannel","file":"src/core/ext/filters/client_channel/client_channel.cc","file_line":3159,"referenced_errors":[{"created":"@1643465668.390614000","description":"failed to connect to all addresses","file":"src/core/lib/transport/error_utils.cc","file_line":147,"grpc_status":14}]}"
+>
+2022-01-29 22:15:32.900 | ERROR    | __main__:<module>:98 - An error has been caught in function '<module>', process 'MainProcess' (55216), thread 'MainThread' (4417633792):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 98, in <module>
+    client().getUserList(0,10)
+    └ <class '__main__.client'>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 61, in getUserList
+    rsp: user_pb2.UserListResponse = self.cli.GetUserList(user_pb2.PageRequest(
+         │        │                  │    │   │           │        └ <class 'user_pb2.PageRequest'>
+         │        │                  │    │   │           └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+         │        │                  │    │   └ <grpc._channel._UnaryUnaryMultiCallable object at 0x7faa3418c040>
+         │        │                  │    └ <proto.user_pb2_grpc.UserStub object at 0x7faa3417a3a0>
+         │        │                  └ <__main__.client object at 0x7faa3415b7f0>
+         │        └ <class 'user_pb2.UserListResponse'>
+         └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7faa3417f300>
+           │                            └ <grpc._channel._RPCState object at 0x7faa3418cdc0>
+           └ <function _end_unary_response_blocking at 0x7faa34194310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7faa3418cdc0>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses"
+	debug_error_string = "{"created":"@1643465732.900411000","description":"Failed to pick subchannel","file":"src/core/ext/filters/client_channel/client_channel.cc","file_line":3159,"referenced_errors":[{"created":"@1643465732.900410000","description":"failed to connect to all addresses","file":"src/core/lib/transport/error_utils.cc","file_line":147,"grpc_status":14}]}"
+>
+2022-01-29 22:17:16.085 | ERROR    | __main__:<module>:99 - An error has been caught in function '<module>', process 'MainProcess' (55237), thread 'MainThread' (4552752640):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 99, in <module>
+    client().getUserList(0,10)
+    └ <class '__main__.client'>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 62, in getUserList
+    rsp: user_pb2.UserListResponse = self.cli.GetUserList(user_pb2.PageRequest(
+         │        │                  │    │   │           │        └ <class 'user_pb2.PageRequest'>
+         │        │                  │    │   │           └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+         │        │                  │    │   └ <grpc._channel._UnaryUnaryMultiCallable object at 0x7fbe1c9990d0>
+         │        │                  │    └ <proto.user_pb2_grpc.UserStub object at 0x7fbe1c987430>
+         │        │                  └ <__main__.client object at 0x7fbe1c968880>
+         │        └ <class 'user_pb2.UserListResponse'>
+         └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7fbe1c9a3400>
+           │                            └ <grpc._channel._RPCState object at 0x7fbe1c999e50>
+           └ <function _end_unary_response_blocking at 0x7fbe1c9a1310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7fbe1c999e50>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses"
+	debug_error_string = "{"created":"@1643465836.084977000","description":"Failed to pick subchannel","file":"src/core/ext/filters/client_channel/client_channel.cc","file_line":3159,"referenced_errors":[{"created":"@1643465836.084976000","description":"failed to connect to all addresses","file":"src/core/lib/transport/error_utils.cc","file_line":147,"grpc_status":14}]}"
+>
+2022-01-29 22:17:31.431 | ERROR    | __main__:<module>:99 - An error has been caught in function '<module>', process 'MainProcess' (55238), thread 'MainThread' (4634553856):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 99, in <module>
+    client().getUserList(0,10)
+    └ <class '__main__.client'>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 62, in getUserList
+    rsp: user_pb2.UserListResponse = self.cli.GetUserList(user_pb2.PageRequest(
+         │        │                  │    │   │           │        └ <class 'user_pb2.PageRequest'>
+         │        │                  │    │   │           └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+         │        │                  │    │   └ <grpc._channel._UnaryUnaryMultiCallable object at 0x7fc18c1d90d0>
+         │        │                  │    └ <proto.user_pb2_grpc.UserStub object at 0x7fc18c1c7430>
+         │        │                  └ <__main__.client object at 0x7fc18c1a8880>
+         │        └ <class 'user_pb2.UserListResponse'>
+         └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7fc18c1cc4c0>
+           │                            └ <grpc._channel._RPCState object at 0x7fc18c1d9e50>
+           └ <function _end_unary_response_blocking at 0x7fc18c1e1310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7fc18c1d9e50>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INTERNAL
+	details = "Failed to serialize response!"
+	debug_error_string = "{"created":"@1643465851.430886000","description":"Error received from peer ipv4:192.168.1.122:4344","file":"src/core/lib/surface/call.cc","file_line":1070,"grpc_message":"Failed to serialize response!","grpc_status":13}"
+>
+2022-01-29 22:17:42.507 | ERROR    | __main__:<module>:99 - An error has been caught in function '<module>', process 'MainProcess' (55239), thread 'MainThread' (4399730176):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 99, in <module>
+    client().getUserList(0,10)
+    └ <class '__main__.client'>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 62, in getUserList
+    rsp: user_pb2.UserListResponse = self.cli.GetUserList(user_pb2.PageRequest(
+         │        │                  │    │   │           │        └ <class 'user_pb2.PageRequest'>
+         │        │                  │    │   │           └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+         │        │                  │    │   └ <grpc._channel._UnaryUnaryMultiCallable object at 0x7fe03218d0d0>
+         │        │                  │    └ <proto.user_pb2_grpc.UserStub object at 0x7fe03217b430>
+         │        │                  └ <__main__.client object at 0x7fe03215c880>
+         │        └ <class 'user_pb2.UserListResponse'>
+         └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7fe032168a80>
+           │                            └ <grpc._channel._RPCState object at 0x7fe03218de50>
+           └ <function _end_unary_response_blocking at 0x7fe032195310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7fe03218de50>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INTERNAL
+	details = "Failed to serialize response!"
+	debug_error_string = "{"created":"@1643465862.507210000","description":"Error received from peer ipv4:192.168.1.122:4344","file":"src/core/lib/surface/call.cc","file_line":1070,"grpc_message":"Failed to serialize response!","grpc_status":13}"
+>
+2022-01-29 22:18:38.341 | ERROR    | __main__:<module>:99 - An error has been caught in function '<module>', process 'MainProcess' (55244), thread 'MainThread' (4533837312):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 99, in <module>
+    client().getUserList(0,10)
+    └ <class '__main__.client'>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 62, in getUserList
+    rsp: user_pb2.UserListResponse = self.cli.GetUserList(user_pb2.PageRequest(
+         │        │                  │    │   │           │        └ <class 'user_pb2.PageRequest'>
+         │        │                  │    │   │           └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+         │        │                  │    │   └ <grpc._channel._UnaryUnaryMultiCallable object at 0x7f7f389990d0>
+         │        │                  │    └ <proto.user_pb2_grpc.UserStub object at 0x7f7f38987430>
+         │        │                  └ <__main__.client object at 0x7f7f38968880>
+         │        └ <class 'user_pb2.UserListResponse'>
+         └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7f7f3899d440>
+           │                            └ <grpc._channel._RPCState object at 0x7f7f38999e50>
+           └ <function _end_unary_response_blocking at 0x7f7f389a1310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7f7f38999e50>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses"
+	debug_error_string = "{"created":"@1643465918.341461000","description":"Failed to pick subchannel","file":"src/core/ext/filters/client_channel/client_channel.cc","file_line":3159,"referenced_errors":[{"created":"@1643465918.341461000","description":"failed to connect to all addresses","file":"src/core/lib/transport/error_utils.cc","file_line":147,"grpc_status":14}]}"
+>
+2022-01-29 22:18:49.794 | ERROR    | __main__:<module>:98 - An error has been caught in function '<module>', process 'MainProcess' (55246), thread 'MainThread' (4612095488):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 98, in <module>
+    client().getUserList(0,10)
+    └ <class '__main__.client'>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 61, in getUserList
+    rsp: user_pb2.UserListResponse = self.cli.GetUserList(user_pb2.PageRequest(
+         │        │                  │    │   │           │        └ <class 'user_pb2.PageRequest'>
+         │        │                  │    │   │           └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+         │        │                  │    │   └ <grpc._channel._UnaryUnaryMultiCallable object at 0x7ff1c59d9040>
+         │        │                  │    └ <proto.user_pb2_grpc.UserStub object at 0x7ff1c59c73a0>
+         │        │                  └ <__main__.client object at 0x7ff1c59a87f0>
+         │        └ <class 'user_pb2.UserListResponse'>
+         └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7ff1c59dd4c0>
+           │                            └ <grpc._channel._RPCState object at 0x7ff1c59d9dc0>
+           └ <function _end_unary_response_blocking at 0x7ff1c59e1310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7ff1c59d9dc0>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses"
+	debug_error_string = "{"created":"@1643465929.794494000","description":"Failed to pick subchannel","file":"src/core/ext/filters/client_channel/client_channel.cc","file_line":3159,"referenced_errors":[{"created":"@1643465929.794493000","description":"failed to connect to all addresses","file":"src/core/lib/transport/error_utils.cc","file_line":147,"grpc_status":14}]}"
+>
+2022-01-29 22:20:08.653 | ERROR    | __main__:<module>:98 - An error has been caught in function '<module>', process 'MainProcess' (55277), thread 'MainThread' (4556168704):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 98, in <module>
+    client().getUserList(0,10)
+    └ <class '__main__.client'>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 61, in getUserList
+    rsp: user_pb2.UserListResponse = self.cli.GetUserList(user_pb2.PageRequest(
+         │        │                  │    │   │           │        └ <class 'user_pb2.PageRequest'>
+         │        │                  │    │   │           └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+         │        │                  │    │   └ <grpc._channel._UnaryUnaryMultiCallable object at 0x7fa2ca0d9040>
+         │        │                  │    └ <proto.user_pb2_grpc.UserStub object at 0x7fa2ca0c73a0>
+         │        │                  └ <__main__.client object at 0x7fa2ca0a87f0>
+         │        └ <class 'user_pb2.UserListResponse'>
+         └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7fa2ca0e3300>
+           │                            └ <grpc._channel._RPCState object at 0x7fa2ca0d9dc0>
+           └ <function _end_unary_response_blocking at 0x7fa2ca0e1310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7fa2ca0d9dc0>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INTERNAL
+	details = "Failed to serialize response!"
+	debug_error_string = "{"created":"@1643466008.653339000","description":"Error received from peer ipv4:192.168.1.122:4343","file":"src/core/lib/surface/call.cc","file_line":1070,"grpc_message":"Failed to serialize response!","grpc_status":13}"
+>
+2022-01-29 22:22:25.660 | ERROR    | __main__:<module>:98 - An error has been caught in function '<module>', process 'MainProcess' (55333), thread 'MainThread' (4574461440):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 98, in <module>
+    client().getUserList(0,10)
+    └ <class '__main__.client'>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 61, in getUserList
+    rsp: user_pb2.UserListResponse = self.cli.GetUserList(user_pb2.PageRequest(
+         │        │                  │    │   │           │        └ <class 'user_pb2.PageRequest'>
+         │        │                  │    │   │           └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+         │        │                  │    │   └ <grpc._channel._UnaryUnaryMultiCallable object at 0x7fef46182040>
+         │        │                  │    └ <proto.user_pb2_grpc.UserStub object at 0x7fef461703a0>
+         │        │                  └ <__main__.client object at 0x7fef461517f0>
+         │        └ <class 'user_pb2.UserListResponse'>
+         └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7fef46186480>
+           │                            └ <grpc._channel._RPCState object at 0x7fef46182dc0>
+           └ <function _end_unary_response_blocking at 0x7fef4618a310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7fef46182dc0>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INTERNAL
+	details = "Failed to serialize response!"
+	debug_error_string = "{"created":"@1643466145.660437000","description":"Error received from peer ipv4:192.168.1.122:4343","file":"src/core/lib/surface/call.cc","file_line":1070,"grpc_message":"Failed to serialize response!","grpc_status":13}"
+>
+2022-01-29 22:31:51.360 | ERROR    | __main__:<module>:98 - An error has been caught in function '<module>', process 'MainProcess' (55372), thread 'MainThread' (4802297344):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 98, in <module>
+    client().getUserList(0,10)
+    └ <class '__main__.client'>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 61, in getUserList
+    rsp: user_pb2.UserListResponse = self.cli.GetUserList(user_pb2.PageRequest(
+         │        │                  │    │   │           │        └ <class 'user_pb2.PageRequest'>
+         │        │                  │    │   │           └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+         │        │                  │    │   └ <grpc._channel._UnaryUnaryMultiCallable object at 0x7fcd9318c040>
+         │        │                  │    └ <proto.user_pb2_grpc.UserStub object at 0x7fcd9317a3a0>
+         │        │                  └ <__main__.client object at 0x7fcd9315a7f0>
+         │        └ <class 'user_pb2.UserListResponse'>
+         └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7fcd9317e5c0>
+           │                            └ <grpc._channel._RPCState object at 0x7fcd9318cdc0>
+           └ <function _end_unary_response_blocking at 0x7fcd93194310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7fcd9318cdc0>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INTERNAL
+	details = "Failed to serialize response!"
+	debug_error_string = "{"created":"@1643466711.360592000","description":"Error received from peer ipv4:192.168.1.122:4343","file":"src/core/lib/surface/call.cc","file_line":1070,"grpc_message":"Failed to serialize response!","grpc_status":13}"
+>
+2022-01-29 22:32:41.794 | ERROR    | __main__:<module>:98 - An error has been caught in function '<module>', process 'MainProcess' (55378), thread 'MainThread' (4736896512):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 98, in <module>
+    client().getUserList(0,10)
+    └ <class '__main__.client'>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 61, in getUserList
+    rsp: user_pb2.UserListResponse = self.cli.GetUserList(user_pb2.PageRequest(
+         │        │                  │    │   │           │        └ <class 'user_pb2.PageRequest'>
+         │        │                  │    │   │           └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+         │        │                  │    │   └ <grpc._channel._UnaryUnaryMultiCallable object at 0x7fb70b198040>
+         │        │                  │    └ <proto.user_pb2_grpc.UserStub object at 0x7fb70b1873a0>
+         │        │                  └ <__main__.client object at 0x7fb70b1677f0>
+         │        └ <class 'user_pb2.UserListResponse'>
+         └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7fb70b18c2c0>
+           │                            └ <grpc._channel._RPCState object at 0x7fb70b198dc0>
+           └ <function _end_unary_response_blocking at 0x7fb70b1a1310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7fb70b198dc0>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INTERNAL
+	details = "Failed to serialize response!"
+	debug_error_string = "{"created":"@1643466761.794091000","description":"Error received from peer ipv4:192.168.1.122:4343","file":"src/core/lib/surface/call.cc","file_line":1070,"grpc_message":"Failed to serialize response!","grpc_status":13}"
+>
+2022-01-29 22:35:47.591 | ERROR    | __main__:<module>:98 - An error has been caught in function '<module>', process 'MainProcess' (55402), thread 'MainThread' (4773031424):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 98, in <module>
+    client().getUserList(0,10)
+    └ <class '__main__.client'>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 61, in getUserList
+    rsp: user_pb2.UserListResponse = self.cli.GetUserList(user_pb2.PageRequest(
+         │        │                  │    │   │           │        └ <class 'user_pb2.PageRequest'>
+         │        │                  │    │   │           └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+         │        │                  │    │   └ <grpc._channel._UnaryUnaryMultiCallable object at 0x7fcbda999040>
+         │        │                  │    └ <proto.user_pb2_grpc.UserStub object at 0x7fcbda9873a0>
+         │        │                  └ <__main__.client object at 0x7fcbda9687f0>
+         │        └ <class 'user_pb2.UserListResponse'>
+         └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7fcbd9d28100>
+           │                            └ <grpc._channel._RPCState object at 0x7fcbda999dc0>
+           └ <function _end_unary_response_blocking at 0x7fcbda9a1310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7fcbda999dc0>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INTERNAL
+	details = "Failed to serialize response!"
+	debug_error_string = "{"created":"@1643466947.591142000","description":"Error received from peer ipv4:192.168.1.122:4343","file":"src/core/lib/surface/call.cc","file_line":1070,"grpc_message":"Failed to serialize response!","grpc_status":13}"
+>
+2022-01-29 22:49:45.578 | ERROR    | __main__:<module>:98 - An error has been caught in function '<module>', process 'MainProcess' (55543), thread 'MainThread' (4450205184):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 98, in <module>
+    client().getUserList(0,10)
+    └ <class '__main__.client'>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 61, in getUserList
+    rsp: user_pb2.UserListResponse = self.cli.GetUserList(user_pb2.PageRequest(
+         │        │                  │    │   │           │        └ <class 'user_pb2.PageRequest'>
+         │        │                  │    │   │           └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+         │        │                  │    │   └ <grpc._channel._UnaryUnaryMultiCallable object at 0x7f8667182040>
+         │        │                  │    └ <proto.user_pb2_grpc.UserStub object at 0x7f86671703a0>
+         │        │                  └ <__main__.client object at 0x7f86671517f0>
+         │        └ <class 'user_pb2.UserListResponse'>
+         └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7f866715ff80>
+           │                            └ <grpc._channel._RPCState object at 0x7f8667182dc0>
+           └ <function _end_unary_response_blocking at 0x7f866718a310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7f8667182dc0>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INTERNAL
+	details = "Failed to serialize response!"
+	debug_error_string = "{"created":"@1643467785.578256000","description":"Error received from peer ipv4:192.168.1.122:4343","file":"src/core/lib/surface/call.cc","file_line":1070,"grpc_message":"Failed to serialize response!","grpc_status":13}"
+>
+2022-01-29 22:50:35.290 | ERROR    | __main__:<module>:98 - An error has been caught in function '<module>', process 'MainProcess' (55555), thread 'MainThread' (4531813888):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 98, in <module>
+    client().getUserList(0,10)
+    └ <class '__main__.client'>
+
+  File "/Users/www/learn-note/gpmall/daoServer/user/tests/test_client.py", line 61, in getUserList
+    rsp: user_pb2.UserListResponse = self.cli.GetUserList(user_pb2.PageRequest(
+         │        │                  │    │   │           │        └ <class 'user_pb2.PageRequest'>
+         │        │                  │    │   │           └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+         │        │                  │    │   └ <grpc._channel._UnaryUnaryMultiCallable object at 0x7f9f1b999040>
+         │        │                  │    └ <proto.user_pb2_grpc.UserStub object at 0x7f9f1b9873a0>
+         │        │                  └ <__main__.client object at 0x7f9f1b9687f0>
+         │        └ <class 'user_pb2.UserListResponse'>
+         └ <module 'proto.user_pb2' from '/Users/www/learn-note/gpmall/daoServer/user/proto/user_pb2.py'>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           │                            │      └ <grpc._cython.cygrpc.SegregatedCall object at 0x7f9f1b98c300>
+           │                            └ <grpc._channel._RPCState object at 0x7f9f1b999dc0>
+           └ <function _end_unary_response_blocking at 0x7f9f1b9a1310>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+          │                 └ <grpc._channel._RPCState object at 0x7f9f1b999dc0>
+          └ <class 'grpc._channel._InactiveRpcError'>
+
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.NOT_FOUND
+	details = "记录不存在:(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10' at line 9")"
+	debug_error_string = "{"created":"@1643467835.290496000","description":"Error received from peer ipv4:192.168.1.122:4343","file":"src/core/lib/surface/call.cc","file_line":1070,"grpc_message":"\u00e8\u00ae\u00b0\u00e5\u00bd\u0095\u00e4\u00b8\u008d\u00e5\u00ad\u0098\u00e5\u009c\u00a8:(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10' at line 9")","grpc_status":5}"
+>

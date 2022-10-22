@@ -1,0 +1,224 @@
+2022-08-15 00:01:22.971 | INFO     | __main__:main:37 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 00:07:05.280 | INFO     | __main__:f:54 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 00:23:31.599 | INFO     | __main__:main:37 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 01:18:18.929 | INFO     | __main__:f:54 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 01:57:59.041 | INFO     | __main__:main:37 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 01:59:01.425 | INFO     | __main__:f:54 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 02:13:41.018 | INFO     | __main__:main:37 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 02:14:34.021 | INFO     | __main__:f:54 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 02:30:30.816 | ERROR    | __main__:<module>:79 - An error has been caught in function '<module>', process 'MainProcess' (69028), thread 'MainThread' (4593485312):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/goods/server.py", line 79, in <module>
+    main()
+    └ <function main at 0x7fafe09d8310>
+
+  File "/Users/www/learn-note/gpmall/daoServer/goods/server.py", line 50, in main
+    server = grpcext.intercept_server(server, interceptors=intercept)
+             │       │                │                    └ <grpc_opentracing._server.OpenTracingServerInterceptor object at 0x7fafe0a1f790>
+             │       │                └ <grpc._server._Server object at 0x7fafe0a155b0>
+             │       └ <function intercept_server at 0x7fafe09cdca0>
+             └ <module 'common.grpc_opentracing.grpcext' from '/Users/www/learn-note/gpmall/daoServer/common/grpc_opentracing/grpcext/__init...
+
+TypeError: intercept_server() got an unexpected keyword argument 'interceptors'
+2022-08-15 02:31:20.545 | INFO     | __main__:main:54 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 02:31:20.548 | ERROR    | __main__:<module>:79 - An error has been caught in function '<module>', process 'MainProcess' (69079), thread 'MainThread' (4618921472):
+Traceback (most recent call last):
+
+> File "/Users/www/learn-note/gpmall/daoServer/goods/server.py", line 79, in <module>
+    main()
+    └ <function main at 0x7f9f9bad8310>
+
+  File "/Users/www/learn-note/gpmall/daoServer/goods/server.py", line 56, in main
+    server.wait_for_termination()
+    │      └ <function Server.wait_for_termination at 0x7f9f992f3b80>
+    └ <grpc_opentracing.grpcext._interceptor._InterceptorServer object at 0x7f9f9bb3e460>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/__init__.py", line 1504, in wait_for_termination
+    raise NotImplementedError()
+
+NotImplementedError
+2022-08-15 02:36:24.570 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 03:54:24.450 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:16:26.011 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 04:16:39.654 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:16:41.543 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 04:16:45.575 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:17:03.183 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 04:20:14.873 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:20:16.175 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 04:21:20.064 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:22:17.760 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 04:23:10.915 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:23:12.101 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 04:23:37.805 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:23:39.469 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 04:23:55.738 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:23:57.309 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 04:30:23.024 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:30:25.276 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 04:32:19.649 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:32:21.444 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 04:35:08.428 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:35:45.378 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 04:36:47.324 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:36:49.831 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 04:37:22.205 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:37:23.803 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 04:37:55.249 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:37:56.766 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 04:38:04.670 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:39:20.311 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 04:44:09.148 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 04:58:56.672 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 05:06:43.245 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 05:09:06.329 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 17:19:05.979 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 17:19:08.794 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 17:19:39.976 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 17:19:44.092 | INFO     | __main__:main:56 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 17:19:46.283 | INFO     | __main__:f:80 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 17:19:53.558 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 17:33:09.477 | ERROR    | handler.goods:GetGoodsDetail:168 - An error has been caught in function 'GetGoodsDetail', process 'MainProcess' (257), thread 'ThreadPoolExecutor-0_0' (123145426280448):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fb879aef0d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145426280448)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fb879aeddc0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145426280448)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145426280448)>
+    │    │        │    └ (<weakref at 0x7fb87ba7b8b0; to 'ThreadPoolExecutor' at 0x7fb87ba1e4c0>, <_queue.SimpleQueue object at 0x7fb87ba24770>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145426280448)>
+    │    └ <function _worker at 0x7fb87ba1fa60>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145426280448)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fb87ba1f5e0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fb87ba862e0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fb87ba862e0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7fb87ba7bbd0>, <grpc._server._RPCState object at 0x7fb87ba86610>, <functio...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fb87ba862e0>
+             │    └ <function _unary_response_in_pool at 0x7fb87ba62790>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fb87ba862e0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <function _InterceptorRpcMethodHandler.unary_unary.<locals>.adaptation at 0x7fb87ba78430>
+                        │              │          └ <grpc._server._RPCState object at 0x7fb87ba86610>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7fb87ba7bbd0>
+                        └ <function _call_behavior at 0x7fb87ba623a0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7fb87ba86970>
+                           │        └ id: 1
+                           │          
+                           └ <function _InterceptorRpcMethodHandler.unary_unary.<locals>.adaptation at 0x7fb87ba78430>
+
+  File "/Users/www/learn-note/gpmall/daoServer/common/grpc_opentracing/grpcext/_interceptor.py", line 272, in adaptation
+    return self._interceptor.intercept_unary(
+           │    │            └ <function OpenTracingServerInterceptor.intercept_unary at 0x7fb87ba33280>
+           │    └ <grpc_opentracing._server.OpenTracingServerInterceptor object at 0x7fb87ba1e460>
+           └ <grpc_opentracing.grpcext._interceptor._InterceptorRpcMethodHandler object at 0x7fb87ba86130>
+
+  File "/Users/www/learn-note/gpmall/daoServer/common/grpc_opentracing/_server.py", line 154, in intercept_unary
+    response = handler(request, servicer_context)
+               │       │        └ <grpc_opentracing._server._OpenTracingServicerContext object at 0x7fb87ba86b20>
+               │       └ id: 1
+               │         
+               └ <function _InterceptorRpcMethodHandler.unary_unary.<locals>.adaptation.<locals>.handler at 0x7fb87ba78670>
+
+  File "/Users/www/learn-note/gpmall/daoServer/common/grpc_opentracing/grpcext/_interceptor.py", line 269, in handler
+    return self._rpc_method_handler.unary_unary(request,
+           │    │                   │           └ id: 1
+           │    │                   │             
+           │    │                   └ _tuplegetter(4, 'Alias for field number 4')
+           │    └ RpcMethodHandler(request_streaming=False, response_streaming=False, request_deserializer=<built-in method FromString of Gener...
+           └ <grpc_opentracing.grpcext._interceptor._InterceptorRpcMethodHandler object at 0x7fb87ba86130>
+
+> File "/Users/www/learn-note/gpmall/daoServer/goods/handler/goods.py", line 168, in GetGoodsDetail
+    stocks = self._get_proto_stub().InvDetail(inventory_pb2.GoodsInvInfo(goodsId=req.id))
+             │    │                           │             │                    │   └ <field property 'GoodsByIdRequest.id'>
+             │    │                           │             │                    └ id: 1
+             │    │                           │             │                      
+             │    │                           │             └ <class 'inventory_pb2.GoodsInvInfo'>
+             │    │                           └ <module 'proto.inventory_pb2' from '/Users/www/learn-note/gpmall/daoServer/goods/proto/inventory_pb2.py'>
+             │    └ <function GoodsServicer._get_proto_stub at 0x7fb87b9bda60>
+             └ <handler.goods.GoodsServicer object at 0x7fb87ba36880>
+
+  File "/Users/www/learn-note/gpmall/daoServer/goods/handler/goods.py", line 30, in _get_proto_stub
+    host,port = c.services_filter(f'Service=="{target}"')
+                │ └ <function Consul.services_filter at 0x7fb87b9bd9d0>
+                └ <common.consul.consul.Consul object at 0x7fb87ba86b80>
+
+TypeError: cannot unpack non-iterable NoneType object
+2022-08-15 18:03:05.469 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 18:03:07.185 | INFO     | __main__:main:55 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 18:05:54.674 | INFO     | __main__:f:79 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 18:11:25.792 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 18:39:36.301 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 18:39:37.933 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 18:44:28.917 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 18:44:30.520 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 18:45:20.449 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 18:45:21.548 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 18:48:12.060 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 18:48:14.159 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 18:50:11.697 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 18:50:14.344 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 18:53:59.563 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 18:54:01.651 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 18:56:27.397 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 18:56:29.552 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 18:58:43.088 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 18:58:45.178 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 18:59:13.688 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 18:59:14.783 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 18:59:43.394 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 18:59:44.464 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:00:32.131 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:00:33.398 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:00:35.840 | INFO     | handler.goods:_get_proto_stub:43 - ("'SpanContext' object has no attribute 'get_active_span'",)
+2022-08-15 19:01:03.870 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:01:05.656 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:01:08.270 | INFO     | handler.goods:_get_proto_stub:43 - ("'Span' object has no attribute 'get_active_span'",)
+2022-08-15 19:03:06.185 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:03:08.249 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:03:11.416 | INFO     | handler.goods:_get_proto_stub:43 - ("name 'ActiveSpanSource' is not defined",)
+2022-08-15 19:03:30.813 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:03:36.070 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:03:37.729 | INFO     | handler.goods:_get_proto_stub:43 - ("'Span' object has no attribute 'get_active_span'",)
+2022-08-15 19:04:07.746 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:04:09.010 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:04:11.039 | INFO     | handler.goods:_get_proto_stub:42 - ('ActiveSpanSource() takes no arguments',)
+2022-08-15 19:04:21.784 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:04:23.876 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:04:26.045 | INFO     | handler.goods:_get_proto_stub:42 - ("Can't instantiate abstract class ActiveSpanSource with abstract method get_active_span",)
+2022-08-15 19:04:46.994 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:13:37.427 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:14:03.647 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:14:04.746 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:19:21.929 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:19:23.872 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:20:32.943 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:20:35.012 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:29:25.617 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:29:28.102 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:29:47.616 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:29:48.723 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:30:22.636 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:30:24.620 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:30:51.398 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:30:52.519 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:31:43.592 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:31:45.423 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344
+2022-08-15 19:32:57.462 | INFO     | __main__:f:81 - 退出 goods-dao 服务 192.168.8.222
+2022-08-15 19:33:32.192 | INFO     | __main__:main:57 - goods-dao服务启动: 192.168.8.222:4344

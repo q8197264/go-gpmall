@@ -1,0 +1,136 @@
+2022-03-25T09:03:31.078+0800	DEBUG	initialize/consul.go:28	inventory-web 服务注册成功: cee44573-c52b-4f08-ab79-44133464d9a2
+2022-03-25T09:03:31.079+0800	FATAL	initialize/grpc_client.go:27	---<nil>
+webServer/inventory/initialize.InitGrpcClient.func1
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:27
+webServer/inventory/initialize.InitGrpcClient
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:34
+main.main
+	/Users/www/learn-note/gpmall/webServer/inventory/main.go:19
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-25T09:04:09.761+0800	DEBUG	initialize/consul.go:28	inventory-web 服务注册成功: befd9e58-958a-477e-ada3-d97165925e4c
+2022-03-25T09:04:09.762+0800	FATAL	initialize/grpc_client.go:27	<nil>
+webServer/inventory/initialize.InitGrpcClient.func1
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:27
+webServer/inventory/initialize.InitGrpcClient
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:34
+main.main
+	/Users/www/learn-note/gpmall/webServer/inventory/main.go:19
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-25T09:05:52.973+0800	DEBUG	initialize/consul.go:28	inventory-web 服务注册成功: 93881aba-eec5-4e2e-8a94-bcc1a3dd7272
+2022-03-25T09:05:52.973+0800	FATAL	initialize/grpc_client.go:30	<nil>
+webServer/inventory/initialize.InitGrpcClient.func1
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:30
+webServer/inventory/initialize.InitGrpcClient
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:34
+main.main
+	/Users/www/learn-note/gpmall/webServer/inventory/main.go:19
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-25T09:06:18.634+0800	DEBUG	initialize/consul.go:28	inventory-web 服务注册成功: ad9c503c-a686-4ab9-821e-39961fa6e56c
+2022-03-25T09:06:18.634+0800	FATAL	initialize/grpc_client.go:30	<nil>
+webServer/inventory/initialize.InitGrpcClient.func1
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:30
+webServer/inventory/initialize.InitGrpcClient
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:34
+main.main
+	/Users/www/learn-note/gpmall/webServer/inventory/main.go:19
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-25T09:07:00.465+0800	DEBUG	initialize/consul.go:28	inventory-web 服务注册成功: eb17d548-502f-454d-b343-673983651e52
+2022-03-25T09:07:00.466+0800	FATAL	initialize/grpc_client.go:29	<nil>
+webServer/inventory/initialize.InitGrpcClient.func1
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:29
+webServer/inventory/initialize.InitGrpcClient
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:33
+main.main
+	/Users/www/learn-note/gpmall/webServer/inventory/main.go:19
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-25T09:07:22.879+0800	DEBUG	initialize/consul.go:28	inventory-web 服务注册成功: 5b6451e2-6c6a-4a80-8278-566482056dfb
+2022-03-25T09:07:22.879+0800	FATAL	initialize/grpc_client.go:30	<nil>
+webServer/inventory/initialize.InitGrpcClient.func1
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:30
+webServer/inventory/initialize.InitGrpcClient
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:34
+main.main
+	/Users/www/learn-note/gpmall/webServer/inventory/main.go:19
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-25T09:08:11.397+0800	DEBUG	initialize/consul.go:28	inventory-web 服务注册成功: 75c7b047-16fe-454a-96f3-8b3842aa1935
+2022-03-25T09:08:11.397+0800	FATAL	initialize/grpc_client.go:30	<nil>
+webServer/inventory/initialize.InitGrpcClient.func1
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:30
+webServer/inventory/initialize.InitGrpcClient
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:34
+main.main
+	/Users/www/learn-note/gpmall/webServer/inventory/main.go:19
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-25T09:08:45.224+0800	DEBUG	initialize/consul.go:28	inventory-web 服务注册成功: d066e41c-dd65-4f8a-ada2-06b41419e040
+2022-03-25T09:08:45.225+0800	FATAL	initialize/grpc_client.go:30	<nil>
+webServer/inventory/initialize.InitGrpcClient.func1
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:30
+webServer/inventory/initialize.InitGrpcClient
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:34
+main.main
+	/Users/www/learn-note/gpmall/webServer/inventory/main.go:19
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-25T09:09:55.038+0800	DEBUG	initialize/consul.go:28	inventory-web 服务注册成功: 8e2bfb04-0330-42d7-a796-cc036d6f4aee
+2022-03-25T09:09:55.039+0800	FATAL	initialize/grpc_client.go:30	<nil>
+webServer/inventory/initialize.InitGrpcClient.func1
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:30
+webServer/inventory/initialize.InitGrpcClient
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:34
+main.main
+	/Users/www/learn-note/gpmall/webServer/inventory/main.go:19
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-25T09:12:03.609+0800	DEBUG	initialize/consul.go:28	inventory-web 服务注册成功: dfbef881-5d17-4959-b1ad-18fea711db61
+2022-03-25T09:12:03.610+0800	FATAL	initialize/grpc_client.go:30	<nil>
+webServer/inventory/initialize.InitGrpcClient.func1
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:30
+webServer/inventory/initialize.InitGrpcClient
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:34
+main.main
+	/Users/www/learn-note/gpmall/webServer/inventory/main.go:19
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-25T09:13:29.331+0800	DEBUG	initialize/consul.go:28	inventory-web 服务注册成功: 70bf1575-4fab-4829-884b-27c0be9f0f73
+2022-03-25T09:13:29.331+0800	FATAL	initialize/grpc_client.go:28	<nil>
+webServer/inventory/initialize.InitGrpcClient.func1
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:28
+webServer/inventory/initialize.InitGrpcClient
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:32
+main.main
+	/Users/www/learn-note/gpmall/webServer/inventory/main.go:19
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-25T10:59:24.974+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: 1d230994-f14e-4c41-b7c1-7a7810647826
+2022-03-25T10:59:24.975+0800	FATAL	initialize/grpc_client.go:30	<nil>
+webServer/inventory/initialize.InitGrpcClient.func1
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:30
+webServer/inventory/initialize.InitGrpcClient
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:34
+main.main
+	/Users/www/learn-note/gpmall/webServer/inventory/main.go:19
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-25T11:00:01.581+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: 6977e919-d19e-4ba6-9758-96e6edb7147a
+2022-03-25T11:00:01.582+0800	FATAL	initialize/grpc_client.go:30	<nil>
+webServer/inventory/initialize.InitGrpcClient.func1
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:30
+webServer/inventory/initialize.InitGrpcClient
+	/Users/www/learn-note/gpmall/webServer/inventory/initialize/grpc_client.go:34
+main.main
+	/Users/www/learn-note/gpmall/webServer/inventory/main.go:19
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-03-25T11:00:18.237+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: 0deff480-04f2-4c58-b204-e93037b0d59b
+2022-03-25T11:00:22.374+0800	DEBUG	initialize/consul.go:48	inventory-web 服务注销成功: 0deff480-04f2-4c58-b204-e93037b0d59b
+2022-03-25T11:11:59.521+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: 46374db2-b550-4917-a8fa-825f0a0ac9fd
+2022-03-25T11:12:25.398+0800	DEBUG	initialize/consul.go:48	inventory-web 服务注销成功: 46374db2-b550-4917-a8fa-825f0a0ac9fd
+2022-03-25T11:12:28.804+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: ed529219-a970-4169-9b82-431251858019
+2022-03-25T11:12:38.384+0800	DEBUG	initialize/consul.go:48	inventory-web 服务注销成功: ed529219-a970-4169-9b82-431251858019
