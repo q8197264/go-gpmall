@@ -2,7 +2,7 @@
 !.gitignore
 .idea
 .vscode
-# webServer/vendor/*
+webServer/vendor/*
 rocketmq
 mysql
 nacos
