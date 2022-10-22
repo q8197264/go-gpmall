@@ -2,3 +2,6 @@
 !.gitignore
 .idea
 .vscode
+rocketmq
+mysql
+nacos
