@@ -1,0 +1,30 @@
+syntax="proto3";
+
+import "google/protobuf/empty.proto";
+option go_package=".;proto";
+
+service Inventory {
+    rpc SetInv(GoodsInvInfo)returns(google.protobuf.Empty);
+    rpc Reback(SellInfo)returns(google.protobuf.Empty);
+    rpc Sell(SellInfo)returns(google.protobuf.Empty);
+    rpc InvDetail(GoodsInvInfo)returns(GoodsInvInfo);
+    rpc BatchInvDetail(GoodsInvsRequest) returns (GoodsInvListResponse);
+}
+
+message GoodsInvInfo {
+    int32 goodsId=1;
+    int32 num=2;
+}
+
+message GoodsInvsRequest {
+    repeated GoodsInvInfo invs = 1;
+}
+
+message GoodsInvListResponse{
+    repeated GoodsInvInfo invs = 1;
+}
+
+message SellInfo{
+    string order_sn = 1;
+    repeated GoodsInvInfo data = 2;
+}

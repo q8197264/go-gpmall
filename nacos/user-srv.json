@@ -1,0 +1,18 @@
+{
+    "name":"user-web",
+    "host":"192.168.101.237",
+    "port": 5354,
+    "consul":{
+        "host":"192.168.101.237",
+        "port": 8500,
+        "tags":["gpmall","user", "web"]
+    },
+    "grpc_addr":{
+        "name":"user-dao",
+        "host":"192.168.101.237",
+        "port":4344
+    },
+    "jwt":{
+        "key":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.yKOB4jkGWu7twu8Ts9zju01E10_CPedLJkoJFCan5J4"
+    }
+}

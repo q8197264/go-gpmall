@@ -1,0 +1,24 @@
+1.646463722560693e+09	warn	consul/Register.go:56	goods-web 服务注销失败:Unexpected response code: 400 (Invalid service address)
+1.646463722560786e+09	warn	initialize/consul.go:29	goods-web服务注册失败:Unexpected response code: 400 (Invalid service address)
+1.646463722561433e+09	info	goods/main.go:37	web商品服务启动:0.0.0.0:5354
+1.6464642707584882e+09	warn	consul/Register.go:65	goods-web 服务注销失败:Unexpected response code: 404 (Unknown service "79498e36-64ad-4cfd-b50e-59b12d72c263")
+1.646464270759449e+09	warn	initialize/consul.go:44	goods-web服务注销失败:Unexpected response code: 404 (Unknown service "79498e36-64ad-4cfd-b50e-59b12d72c263")
+1.646469042225151e+09	warn	consul/Register.go:56	goods-web 服务注销失败:Unexpected response code: 400 (Invalid service address)
+1.6464690422255418e+09	warn	initialize/consul.go:29	goods-web服务注册失败:Unexpected response code: 400 (Invalid service address)
+1.646469042226727e+09	info	goods/main.go:37	web商品服务启动:0.0.0.0:5354
+1.646477378677223e+09	warn	consul/Register.go:65	goods-web 服务注销失败:Unexpected response code: 404 (Unknown service "eb1ea53e-8271-41dc-97b7-164334cbe3db")
+1.646477378678092e+09	warn	initialize/consul.go:44	goods-web服务注销失败:Unexpected response code: 404 (Unknown service "eb1ea53e-8271-41dc-97b7-164334cbe3db")
+1.646477384575531e+09	warn	consul/Register.go:56	goods-web 服务注销失败:Unexpected response code: 400 (Invalid service address)
+1.6464773845757492e+09	warn	initialize/consul.go:29	goods-web服务注册失败:Unexpected response code: 400 (Invalid service address)
+1.646477384577955e+09	info	goods/main.go:37	web商品服务启动:0.0.0.0:5354
+1.646477582509082e+09	warn	consul/Register.go:65	goods-web 服务注销失败:Unexpected response code: 404 (Unknown service "ab681786-7539-4c8c-82c3-ce5e7bee9685")
+1.646477582509722e+09	warn	initialize/consul.go:44	goods-web服务注销失败:Unexpected response code: 404 (Unknown service "ab681786-7539-4c8c-82c3-ce5e7bee9685")
+1.646477598873337e+09	warn	consul/Register.go:56	goods-web 服务注销失败:Unexpected response code: 400 (Invalid service address)
+1.646477598873881e+09	warn	initialize/consul.go:29	goods-web服务注册失败:Unexpected response code: 400 (Invalid service address)
+1.646477598876991e+09	info	goods/main.go:37	web商品服务启动:0.0.0.0:5354
+1.646495995257846e+09	warn	consul/Register.go:65	goods-web 服务注销失败:Unexpected response code: 404 (Unknown service "2b424e3a-cfc6-43b2-a873-aa243de36d14")
+1.646495995260731e+09	warn	initialize/consul.go:44	goods-web服务注销失败:Unexpected response code: 404 (Unknown service "2b424e3a-cfc6-43b2-a873-aa243de36d14")
+1.6596903146489542e+09	info	initialize/consul.go:31	goods-web服务注册成功
+1.659690314650223e+09	info	goods/main.go:37	web商品服务启动:192.168.8.222:5354
+1.659690419792325e+09	info	consul/Register.go:68	goods-web 服务注销成功
+1.659690419793552e+09	info	initialize/consul.go:47	goods-web服务注销success

@@ -1,0 +1,14 @@
+2022-08-14T04:47:20.833+0800	INFO	initialize/consul.go:29	user-web服务注册成功
+2022-08-14T04:48:19.102+0800	INFO	initialize/consul.go:43	user-web服务注销成功
+2022-08-14T04:49:27.090+0800	INFO	initialize/consul.go:29	user-web服务注册成功
+2022-08-14T04:51:13.454+0800	WARN	initialize/consul.go:41	Unexpected response code: 404 (Unknown service "88775567-981c-4a9a-be44-6a247c2d10cf")服务注销失败: %!s(MISSING)
+webServer/users/initialize.ServiceDeRegister
+	/Users/www/learn-note/gpmall/webServer/users/initialize/consul.go:41
+main.exit
+	/Users/www/learn-note/gpmall/webServer/users/main.go:58
+main.main
+	/Users/www/learn-note/gpmall/webServer/users/main.go:50
+runtime.main
+	/usr/local/Cellar/go/1.16.6/libexec/src/runtime/proc.go:225
+2022-08-14T04:51:17.615+0800	INFO	initialize/consul.go:29	user-web服务注册成功
+2022-08-14T04:52:04.970+0800	INFO	initialize/consul.go:43	user-web服务注销成功

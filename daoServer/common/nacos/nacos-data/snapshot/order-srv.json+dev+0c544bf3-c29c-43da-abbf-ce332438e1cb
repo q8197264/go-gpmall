@@ -1,0 +1,27 @@
+{
+    "name":"order-dao",
+    "host":"192.168.31.106",
+    "port": 4347,
+    "consul":{
+        "host":"192.168.31.106",
+        "port": 8500,
+        "tags":["gpmall","order", "dao", "python"]
+    },
+    "mysql":{
+        "host":"192.168.31.106",
+        "port":3308,
+        "db":"srv_order",
+        "user":"root",
+        "password":"ecs@123"
+    },
+    "goods":{
+        "name":"goods-dao"
+    },
+    "inventory":{
+        "name":"inventory-dao"
+    },
+    "rocketmq":{
+        "host":"192.168.31.106",
+        "port":9876
+    }
+}

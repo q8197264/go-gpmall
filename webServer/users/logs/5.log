@@ -1,0 +1,10 @@
+2022-08-05T16:33:51.438+0800	INFO	initialize/consul.go:29	user-web服务注册成功
+2022-08-05T16:33:59.031+0800	DEBUG	api/user.go:400	grpc错误: Unavailable => last resolver error: produced zero addresses
+2022-08-05T16:35:15.005+0800	DEBUG	api/user.go:400	grpc错误: Unavailable => last resolver error: produced zero addresses
+2022-08-05T16:36:01.319+0800	DEBUG	api/user.go:400	grpc错误: Unavailable => last resolver error: produced zero addresses
+2022-08-05T16:41:53.484+0800	INFO	initialize/consul.go:43	user-web服务注销成功
+2022-08-05T16:46:34.623+0800	INFO	initialize/consul.go:29	user-web服务注册成功
+2022-08-05T16:46:39.436+0800	INFO	initialize/consul.go:43	user-web服务注销成功
+2022-08-05T16:47:19.273+0800	INFO	initialize/consul.go:29	user-web服务注册成功
+2022-08-05T16:47:48.533+0800	DEBUG	api/user.go:400	grpc错误: Unavailable => last resolver error: produced zero addresses
+2022-08-05T17:01:04.634+0800	INFO	initialize/consul.go:43	user-web服务注销成功

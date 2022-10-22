@@ -1,0 +1,1986 @@
+2022-08-02 13:05:55.529 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:05:55.529 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:05:55.529 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:06:03.830 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:06:03.830 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:06:03.830 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:18:25.348 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:18:25.348 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:18:25.348 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:18:35.666 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:18:35.666 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:18:35.666 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:24:24.072 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:24:24.072 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:24:24.072 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:24:36.250 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:24:36.250 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:24:36.250 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:25:03.983 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:25:03.983 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:25:03.983 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:25:24.393 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:25:24.393 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:25:24.393 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:25:28.887 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:25:28.887 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:25:28.887 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:26:08.219 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:26:08.219 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:26:08.219 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:26:20.215 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:26:20.215 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:26:20.215 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:26:34.466 | ERROR    | grpc._server:_call_behavior:443 - An error has been caught in function '_call_behavior', process 'MainProcess' (20993), thread 'ThreadPoolExecutor-0_0' (123145351925760):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f9e79eccca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145351925760)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f9e79ecc9d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145351925760)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145351925760)>
+    │    │        │    └ (<weakref at 0x7f9e7dfa51d0; to 'ThreadPoolExecutor' at 0x7f9e7df3fb20>, <_queue.SimpleQueue object at 0x7f9e7df41d60>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145351925760)>
+    │    └ <function _worker at 0x7f9e7df568b0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145351925760)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f9e7df569d0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f9e7dfa35b0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f9e7dfa35b0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7f9e7df96a90>, <grpc._server._RPCState object at 0x7f9e7dfa31c0>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f9e7dfa35b0>
+             │    └ <function _unary_response_in_pool at 0x7f9e7df91f70>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f9e7dfa35b0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7f9e7df72760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7f9e7dfa31c0>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7f9e7df96a90>
+                        └ <function _call_behavior at 0x7f9e7df91b80>
+> File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7f9e7dfa3220>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7f9e7df72760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 74, in CreateOrder
+    p.start()
+    │ └ <function TransactionMQProducer.start at 0x7f9e7dc1e1f0>
+    └ <rocketmq.client.TransactionMQProducer object at 0x7f9e7dfa3100>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 309, in start
+    ffi_check(dll.StartProducer(self._handle))
+    │         │   │             │    └ 105553162412224
+    │         │   │             └ <rocketmq.client.TransactionMQProducer object at 0x7f9e7dfa3100>
+    │         │   └ <_FuncPtr object at 0x7f9e7dc0ec40>
+    │         └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 213b16140 at 0x7f9e7dc04fd0>
+    └ <function ffi_check at 0x7f9e7dc031f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/exceptions.py", line 44, in ffi_check
+    raise exc_cls(msg)
+          │       └ 'The producer group[transProducerGroup] has been created before, specify another name please.,error:-1,in file rocketmq-clien...
+          └ <class 'rocketmq.exceptions.ProducerStartFailed'>
+
+rocketmq.exceptions.ProducerStartFailed: The producer group[transProducerGroup] has been created before, specify another name please.,error:-1,in file rocketmq-client-cpp/src/producer/DefaultMQProducerImpl.cpp line:79
+2022-08-02 13:26:34.466 | ERROR    | grpc._server:_call_behavior:443 - An error has been caught in function '_call_behavior', process 'MainProcess' (20993), thread 'ThreadPoolExecutor-0_0' (123145351925760):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f9e79eccca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145351925760)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f9e79ecc9d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145351925760)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145351925760)>
+    │    │        │    └ (<weakref at 0x7f9e7dfa51d0; to 'ThreadPoolExecutor' at 0x7f9e7df3fb20>, <_queue.SimpleQueue object at 0x7f9e7df41d60>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145351925760)>
+    │    └ <function _worker at 0x7f9e7df568b0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145351925760)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f9e7df569d0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f9e7dfa35b0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f9e7dfa35b0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7f9e7df96a90>, <grpc._server._RPCState object at 0x7f9e7dfa31c0>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f9e7dfa35b0>
+             │    └ <function _unary_response_in_pool at 0x7f9e7df91f70>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f9e7dfa35b0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7f9e7df72760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7f9e7dfa31c0>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7f9e7df96a90>
+                        └ <function _call_behavior at 0x7f9e7df91b80>
+> File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7f9e7dfa3220>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7f9e7df72760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 74, in CreateOrder
+    p.start()
+    │ └ <function TransactionMQProducer.start at 0x7f9e7dc1e1f0>
+    └ <rocketmq.client.TransactionMQProducer object at 0x7f9e7dfa3100>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 309, in start
+    ffi_check(dll.StartProducer(self._handle))
+    │         │   │             │    └ 105553162412224
+    │         │   │             └ <rocketmq.client.TransactionMQProducer object at 0x7f9e7dfa3100>
+    │         │   └ <_FuncPtr object at 0x7f9e7dc0ec40>
+    │         └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 213b16140 at 0x7f9e7dc04fd0>
+    └ <function ffi_check at 0x7f9e7dc031f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/exceptions.py", line 44, in ffi_check
+    raise exc_cls(msg)
+          │       └ 'The producer group[transProducerGroup] has been created before, specify another name please.,error:-1,in file rocketmq-clien...
+          └ <class 'rocketmq.exceptions.ProducerStartFailed'>
+
+rocketmq.exceptions.ProducerStartFailed: The producer group[transProducerGroup] has been created before, specify another name please.,error:-1,in file rocketmq-client-cpp/src/producer/DefaultMQProducerImpl.cpp line:79
+2022-08-02 13:26:34.466 | ERROR    | grpc._server:_call_behavior:443 - An error has been caught in function '_call_behavior', process 'MainProcess' (20993), thread 'ThreadPoolExecutor-0_0' (123145351925760):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f9e79eccca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145351925760)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f9e79ecc9d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145351925760)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145351925760)>
+    │    │        │    └ (<weakref at 0x7f9e7dfa51d0; to 'ThreadPoolExecutor' at 0x7f9e7df3fb20>, <_queue.SimpleQueue object at 0x7f9e7df41d60>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145351925760)>
+    │    └ <function _worker at 0x7f9e7df568b0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145351925760)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f9e7df569d0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f9e7dfa35b0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f9e7dfa35b0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7f9e7df96a90>, <grpc._server._RPCState object at 0x7f9e7dfa31c0>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f9e7dfa35b0>
+             │    └ <function _unary_response_in_pool at 0x7f9e7df91f70>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f9e7dfa35b0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7f9e7df72760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7f9e7dfa31c0>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7f9e7df96a90>
+                        └ <function _call_behavior at 0x7f9e7df91b80>
+> File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7f9e7dfa3220>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7f9e7df72760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 74, in CreateOrder
+    p.start()
+    │ └ <function TransactionMQProducer.start at 0x7f9e7dc1e1f0>
+    └ <rocketmq.client.TransactionMQProducer object at 0x7f9e7dfa3100>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 309, in start
+    ffi_check(dll.StartProducer(self._handle))
+    │         │   │             │    └ 105553162412224
+    │         │   │             └ <rocketmq.client.TransactionMQProducer object at 0x7f9e7dfa3100>
+    │         │   └ <_FuncPtr object at 0x7f9e7dc0ec40>
+    │         └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 213b16140 at 0x7f9e7dc04fd0>
+    └ <function ffi_check at 0x7f9e7dc031f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/exceptions.py", line 44, in ffi_check
+    raise exc_cls(msg)
+          │       └ 'The producer group[transProducerGroup] has been created before, specify another name please.,error:-1,in file rocketmq-clien...
+          └ <class 'rocketmq.exceptions.ProducerStartFailed'>
+
+rocketmq.exceptions.ProducerStartFailed: The producer group[transProducerGroup] has been created before, specify another name please.,error:-1,in file rocketmq-client-cpp/src/producer/DefaultMQProducerImpl.cpp line:79
+2022-08-02 13:27:01.333 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:27:01.333 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:27:01.333 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:27:04.676 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:27:04.676 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:27:04.676 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:27:14.463 | ERROR    | grpc._server:_call_behavior:443 - An error has been caught in function '_call_behavior', process 'MainProcess' (21046), thread 'ThreadPoolExecutor-0_0' (123145346686976):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7ff2417e7ca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145346686976)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7ff2417e79d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145346686976)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145346686976)>
+    │    │        │    └ (<weakref at 0x7ff2445a4220; to 'ThreadPoolExecutor' at 0x7ff244540a30>, <_queue.SimpleQueue object at 0x7ff244542d60>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145346686976)>
+    │    └ <function _worker at 0x7ff2445548b0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145346686976)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7ff2445549d0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7ff2445a3520>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7ff2445a3520>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7ff244596ae0>, <grpc._server._RPCState object at 0x7ff244594970>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7ff2445a3520>
+             │    └ <function _unary_response_in_pool at 0x7ff244591f70>
+             └ <concurrent.futures.thread._WorkItem object at 0x7ff2445a3520>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7ff2445726d0>>
+                        │              │          └ <grpc._server._RPCState object at 0x7ff244594970>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7ff244596ae0>
+                        └ <function _call_behavior at 0x7ff244591b80>
+> File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7ff2445a3040>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7ff2445726d0>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 74, in CreateOrder
+    p.start()
+    │ └ <function TransactionMQProducer.start at 0x7ff2441e61f0>
+    └ <rocketmq.client.TransactionMQProducer object at 0x7ff2445a3640>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 309, in start
+    ffi_check(dll.StartProducer(self._handle))
+    │         │   │             │    └ 105553159222080
+    │         │   │             └ <rocketmq.client.TransactionMQProducer object at 0x7ff2445a3640>
+    │         │   └ <_FuncPtr object at 0x7ff2441d5c40>
+    │         └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 206d08140 at 0x7ff2441a2730>
+    └ <function ffi_check at 0x7ff2441c91f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/exceptions.py", line 44, in ffi_check
+    raise exc_cls(msg)
+          │       └ 'The producer group[transProducerGroup] has been created before, specify another name please.,error:-1,in file rocketmq-clien...
+          └ <class 'rocketmq.exceptions.ProducerStartFailed'>
+
+rocketmq.exceptions.ProducerStartFailed: The producer group[transProducerGroup] has been created before, specify another name please.,error:-1,in file rocketmq-client-cpp/src/producer/DefaultMQProducerImpl.cpp line:79
+2022-08-02 13:27:14.463 | ERROR    | grpc._server:_call_behavior:443 - An error has been caught in function '_call_behavior', process 'MainProcess' (21046), thread 'ThreadPoolExecutor-0_0' (123145346686976):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7ff2417e7ca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145346686976)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7ff2417e79d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145346686976)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145346686976)>
+    │    │        │    └ (<weakref at 0x7ff2445a4220; to 'ThreadPoolExecutor' at 0x7ff244540a30>, <_queue.SimpleQueue object at 0x7ff244542d60>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145346686976)>
+    │    └ <function _worker at 0x7ff2445548b0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145346686976)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7ff2445549d0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7ff2445a3520>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7ff2445a3520>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7ff244596ae0>, <grpc._server._RPCState object at 0x7ff244594970>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7ff2445a3520>
+             │    └ <function _unary_response_in_pool at 0x7ff244591f70>
+             └ <concurrent.futures.thread._WorkItem object at 0x7ff2445a3520>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7ff2445726d0>>
+                        │              │          └ <grpc._server._RPCState object at 0x7ff244594970>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7ff244596ae0>
+                        └ <function _call_behavior at 0x7ff244591b80>
+> File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7ff2445a3040>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7ff2445726d0>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 74, in CreateOrder
+    p.start()
+    │ └ <function TransactionMQProducer.start at 0x7ff2441e61f0>
+    └ <rocketmq.client.TransactionMQProducer object at 0x7ff2445a3640>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 309, in start
+    ffi_check(dll.StartProducer(self._handle))
+    │         │   │             │    └ 105553159222080
+    │         │   │             └ <rocketmq.client.TransactionMQProducer object at 0x7ff2445a3640>
+    │         │   └ <_FuncPtr object at 0x7ff2441d5c40>
+    │         └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 206d08140 at 0x7ff2441a2730>
+    └ <function ffi_check at 0x7ff2441c91f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/exceptions.py", line 44, in ffi_check
+    raise exc_cls(msg)
+          │       └ 'The producer group[transProducerGroup] has been created before, specify another name please.,error:-1,in file rocketmq-clien...
+          └ <class 'rocketmq.exceptions.ProducerStartFailed'>
+
+rocketmq.exceptions.ProducerStartFailed: The producer group[transProducerGroup] has been created before, specify another name please.,error:-1,in file rocketmq-client-cpp/src/producer/DefaultMQProducerImpl.cpp line:79
+2022-08-02 13:27:14.463 | ERROR    | grpc._server:_call_behavior:443 - An error has been caught in function '_call_behavior', process 'MainProcess' (21046), thread 'ThreadPoolExecutor-0_0' (123145346686976):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7ff2417e7ca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145346686976)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7ff2417e79d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145346686976)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145346686976)>
+    │    │        │    └ (<weakref at 0x7ff2445a4220; to 'ThreadPoolExecutor' at 0x7ff244540a30>, <_queue.SimpleQueue object at 0x7ff244542d60>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145346686976)>
+    │    └ <function _worker at 0x7ff2445548b0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145346686976)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7ff2445549d0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7ff2445a3520>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7ff2445a3520>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7ff244596ae0>, <grpc._server._RPCState object at 0x7ff244594970>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7ff2445a3520>
+             │    └ <function _unary_response_in_pool at 0x7ff244591f70>
+             └ <concurrent.futures.thread._WorkItem object at 0x7ff2445a3520>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7ff2445726d0>>
+                        │              │          └ <grpc._server._RPCState object at 0x7ff244594970>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7ff244596ae0>
+                        └ <function _call_behavior at 0x7ff244591b80>
+> File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7ff2445a3040>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7ff2445726d0>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 74, in CreateOrder
+    p.start()
+    │ └ <function TransactionMQProducer.start at 0x7ff2441e61f0>
+    └ <rocketmq.client.TransactionMQProducer object at 0x7ff2445a3640>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 309, in start
+    ffi_check(dll.StartProducer(self._handle))
+    │         │   │             │    └ 105553159222080
+    │         │   │             └ <rocketmq.client.TransactionMQProducer object at 0x7ff2445a3640>
+    │         │   └ <_FuncPtr object at 0x7ff2441d5c40>
+    │         └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 206d08140 at 0x7ff2441a2730>
+    └ <function ffi_check at 0x7ff2441c91f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/exceptions.py", line 44, in ffi_check
+    raise exc_cls(msg)
+          │       └ 'The producer group[transProducerGroup] has been created before, specify another name please.,error:-1,in file rocketmq-clien...
+          └ <class 'rocketmq.exceptions.ProducerStartFailed'>
+
+rocketmq.exceptions.ProducerStartFailed: The producer group[transProducerGroup] has been created before, specify another name please.,error:-1,in file rocketmq-client-cpp/src/producer/DefaultMQProducerImpl.cpp line:79
+2022-08-02 13:27:22.673 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:27:22.673 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:27:22.673 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:27:55.547 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:27:55.547 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:27:55.547 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:28:18.739 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:28:18.739 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:28:18.739 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:28:36.478 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:28:36.478 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:28:36.478 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 13:28:49.044 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:28:49.044 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 13:28:49.044 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 17:02:21.746 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 17:02:21.746 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 17:02:21.746 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 17:02:29.072 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 17:02:29.072 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 17:02:29.072 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 17:03:39.281 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 17:03:39.281 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 17:03:39.281 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 17:03:44.530 | ERROR    | handler.order:local_execute:135 - An error has been caught in function 'local_execute', process 'MainProcess' (28618), thread 'ThreadPoolExecutor-0_0' (123145494884352):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fdf7c7ccca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145494884352)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fdf7c7cc9d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145494884352)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145494884352)>
+    │    │        │    └ (<weakref at 0x7fdf80fa4310; to 'ThreadPoolExecutor' at 0x7fdf80f3fb20>, <_queue.SimpleQueue object at 0x7fdf80f42e50>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145494884352)>
+    │    └ <function _worker at 0x7fdf80f55940>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145494884352)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fdf80f55a60>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fdf80fa31f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fdf80fa31f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7fdf80f96bd0>, <grpc._server._RPCState object at 0x7fdf80f94a00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fdf80fa31f0>
+             │    └ <function _unary_response_in_pool at 0x7fdf80f93040>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fdf80fa31f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdf80f72760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7fdf80f94a00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7fdf80f96bd0>
+                        └ <function _call_behavior at 0x7fdf80f92c10>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7fdf80fa3580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdf80f72760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 87, in CreateOrder
+    res = p.send_message_in_transaction(msg, self.local_execute, None)
+          │ │                           │    │    └ <function OrderServicer.local_execute at 0x7fdf80f279d0>
+          │ │                           │    └ <handler.order.OrderServicer object at 0x7fdf80f72760>
+          │ │                           └ <rocketmq.client.Message object at 0x7fdf80fa36d0>
+          │ └ <function TransactionMQProducer.send_message_in_transaction at 0x7fdf80d1e310>
+          └ <rocketmq.client.TransactionMQProducer object at 0x7fdf80fa35e0>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 336, in send_message_in_transaction
+    dll.SendMessageTransaction(self._handle,
+    │   │                      │    └ 105553116598240
+    │   │                      └ <rocketmq.client.TransactionMQProducer object at 0x7fdf80fa35e0>
+    │   └ <_FuncPtr object at 0x7fdf80d12a00>
+    └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 21ad5e140 at 0x7fdf80d05e80>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 317, in _on_local_execute
+    local_result = local_execute(py_message, usr_args)
+                   │             │           └ None
+                   │             └ <unprintable ReceivedMessage object>
+                   └ <bound method OrderServicer.local_execute of <handler.order.OrderServicer object at 0x7fdf80f72760>>
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 135, in local_execute
+    client = self._grpcClient(cfg["goods"]["name"])
+             │    │           └ {'name': 'order-dao', 'host': '192.168.8.222', 'port': 4347, 'consul': {'host': '192.168.8.222', 'port': 8500, 'tags': ['gpma...
+             │    └ <function OrderServicer._grpcClient at 0x7fdf80f27310>
+             └ <handler.order.OrderServicer object at 0x7fdf80f72760>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 47, in _grpcClient
+    host, port = client.services_filter(f'Service=="{srv_name}"')
+                 │      └ <function Consul.services_filter at 0x7fdf80f1b280>
+                 └ <common.consul.consul.Consul object at 0x7fdf80fb9700>
+
+TypeError: cannot unpack non-iterable NoneType object
+2022-08-02 17:03:44.530 | ERROR    | handler.order:local_execute:135 - An error has been caught in function 'local_execute', process 'MainProcess' (28618), thread 'ThreadPoolExecutor-0_0' (123145494884352):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fdf7c7ccca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145494884352)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fdf7c7cc9d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145494884352)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145494884352)>
+    │    │        │    └ (<weakref at 0x7fdf80fa4310; to 'ThreadPoolExecutor' at 0x7fdf80f3fb20>, <_queue.SimpleQueue object at 0x7fdf80f42e50>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145494884352)>
+    │    └ <function _worker at 0x7fdf80f55940>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145494884352)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fdf80f55a60>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fdf80fa31f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fdf80fa31f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7fdf80f96bd0>, <grpc._server._RPCState object at 0x7fdf80f94a00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fdf80fa31f0>
+             │    └ <function _unary_response_in_pool at 0x7fdf80f93040>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fdf80fa31f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdf80f72760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7fdf80f94a00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7fdf80f96bd0>
+                        └ <function _call_behavior at 0x7fdf80f92c10>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7fdf80fa3580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdf80f72760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 87, in CreateOrder
+    res = p.send_message_in_transaction(msg, self.local_execute, None)
+          │ │                           │    │    └ <function OrderServicer.local_execute at 0x7fdf80f279d0>
+          │ │                           │    └ <handler.order.OrderServicer object at 0x7fdf80f72760>
+          │ │                           └ <rocketmq.client.Message object at 0x7fdf80fa36d0>
+          │ └ <function TransactionMQProducer.send_message_in_transaction at 0x7fdf80d1e310>
+          └ <rocketmq.client.TransactionMQProducer object at 0x7fdf80fa35e0>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 336, in send_message_in_transaction
+    dll.SendMessageTransaction(self._handle,
+    │   │                      │    └ 105553116598240
+    │   │                      └ <rocketmq.client.TransactionMQProducer object at 0x7fdf80fa35e0>
+    │   └ <_FuncPtr object at 0x7fdf80d12a00>
+    └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 21ad5e140 at 0x7fdf80d05e80>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 317, in _on_local_execute
+    local_result = local_execute(py_message, usr_args)
+                   │             │           └ None
+                   │             └ <unprintable ReceivedMessage object>
+                   └ <bound method OrderServicer.local_execute of <handler.order.OrderServicer object at 0x7fdf80f72760>>
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 135, in local_execute
+    client = self._grpcClient(cfg["goods"]["name"])
+             │    │           └ {'name': 'order-dao', 'host': '192.168.8.222', 'port': 4347, 'consul': {'host': '192.168.8.222', 'port': 8500, 'tags': ['gpma...
+             │    └ <function OrderServicer._grpcClient at 0x7fdf80f27310>
+             └ <handler.order.OrderServicer object at 0x7fdf80f72760>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 47, in _grpcClient
+    host, port = client.services_filter(f'Service=="{srv_name}"')
+                 │      └ <function Consul.services_filter at 0x7fdf80f1b280>
+                 └ <common.consul.consul.Consul object at 0x7fdf80fb9700>
+
+TypeError: cannot unpack non-iterable NoneType object
+2022-08-02 17:03:44.530 | ERROR    | handler.order:local_execute:135 - An error has been caught in function 'local_execute', process 'MainProcess' (28618), thread 'ThreadPoolExecutor-0_0' (123145494884352):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fdf7c7ccca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145494884352)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fdf7c7cc9d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145494884352)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145494884352)>
+    │    │        │    └ (<weakref at 0x7fdf80fa4310; to 'ThreadPoolExecutor' at 0x7fdf80f3fb20>, <_queue.SimpleQueue object at 0x7fdf80f42e50>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145494884352)>
+    │    └ <function _worker at 0x7fdf80f55940>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145494884352)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fdf80f55a60>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fdf80fa31f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fdf80fa31f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7fdf80f96bd0>, <grpc._server._RPCState object at 0x7fdf80f94a00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fdf80fa31f0>
+             │    └ <function _unary_response_in_pool at 0x7fdf80f93040>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fdf80fa31f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdf80f72760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7fdf80f94a00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7fdf80f96bd0>
+                        └ <function _call_behavior at 0x7fdf80f92c10>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7fdf80fa3580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdf80f72760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 87, in CreateOrder
+    res = p.send_message_in_transaction(msg, self.local_execute, None)
+          │ │                           │    │    └ <function OrderServicer.local_execute at 0x7fdf80f279d0>
+          │ │                           │    └ <handler.order.OrderServicer object at 0x7fdf80f72760>
+          │ │                           └ <rocketmq.client.Message object at 0x7fdf80fa36d0>
+          │ └ <function TransactionMQProducer.send_message_in_transaction at 0x7fdf80d1e310>
+          └ <rocketmq.client.TransactionMQProducer object at 0x7fdf80fa35e0>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 336, in send_message_in_transaction
+    dll.SendMessageTransaction(self._handle,
+    │   │                      │    └ 105553116598240
+    │   │                      └ <rocketmq.client.TransactionMQProducer object at 0x7fdf80fa35e0>
+    │   └ <_FuncPtr object at 0x7fdf80d12a00>
+    └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 21ad5e140 at 0x7fdf80d05e80>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 317, in _on_local_execute
+    local_result = local_execute(py_message, usr_args)
+                   │             │           └ None
+                   │             └ <unprintable ReceivedMessage object>
+                   └ <bound method OrderServicer.local_execute of <handler.order.OrderServicer object at 0x7fdf80f72760>>
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 135, in local_execute
+    client = self._grpcClient(cfg["goods"]["name"])
+             │    │           └ {'name': 'order-dao', 'host': '192.168.8.222', 'port': 4347, 'consul': {'host': '192.168.8.222', 'port': 8500, 'tags': ['gpma...
+             │    └ <function OrderServicer._grpcClient at 0x7fdf80f27310>
+             └ <handler.order.OrderServicer object at 0x7fdf80f72760>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 47, in _grpcClient
+    host, port = client.services_filter(f'Service=="{srv_name}"')
+                 │      └ <function Consul.services_filter at 0x7fdf80f1b280>
+                 └ <common.consul.consul.Consul object at 0x7fdf80fb9700>
+
+TypeError: cannot unpack non-iterable NoneType object
+2022-08-02 17:03:52.169 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 17:03:52.169 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 17:03:52.169 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 17:16:25.731 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 17:16:25.731 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 17:16:25.731 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 17:16:29.325 | ERROR    | grpc._server:_call_behavior:443 - An error has been caught in function '_call_behavior', process 'MainProcess' (29356), thread 'ThreadPoolExecutor-0_0' (123145512230912):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7faefe6c2ca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145512230912)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7faefe6c29d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145512230912)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145512230912)>
+    │    │        │    └ (<weakref at 0x7faf0277f310; to 'ThreadPoolExecutor' at 0x7faf026ffb20>, <_queue.SimpleQueue object at 0x7faf02712e50>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145512230912)>
+    │    └ <function _worker at 0x7faf02726940>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145512230912)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7faf02726a60>
+    └ <concurrent.futures.thread._WorkItem object at 0x7faf0277e1f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7faf0277e1f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7faf02771bd0>, <grpc._server._RPCState object at 0x7faf0276ea00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7faf0277e1f0>
+             │    └ <function _unary_response_in_pool at 0x7faf0276d040>
+             └ <concurrent.futures.thread._WorkItem object at 0x7faf0277e1f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7faf02743760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7faf0276ea00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7faf02771bd0>
+                        └ <function _call_behavior at 0x7faf0276cc10>
+> File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7faf0277e580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7faf02743760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 93, in CreateOrder
+    if local_order_dict[orderSn]["code"] == grpc.StatusCode.OK:
+       │                │                   │    │          └ <StatusCode.OK: (0, 'ok')>
+       │                │                   │    └ <enum 'StatusCode'>
+       │                │                   └ <module 'grpc' from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/__init__.py'>
+       │                └ '202208021716291604'
+       └ {'202208021716291604': {}}
+
+KeyError: 'code'
+2022-08-02 17:16:29.325 | ERROR    | grpc._server:_call_behavior:443 - An error has been caught in function '_call_behavior', process 'MainProcess' (29356), thread 'ThreadPoolExecutor-0_0' (123145512230912):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7faefe6c2ca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145512230912)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7faefe6c29d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145512230912)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145512230912)>
+    │    │        │    └ (<weakref at 0x7faf0277f310; to 'ThreadPoolExecutor' at 0x7faf026ffb20>, <_queue.SimpleQueue object at 0x7faf02712e50>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145512230912)>
+    │    └ <function _worker at 0x7faf02726940>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145512230912)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7faf02726a60>
+    └ <concurrent.futures.thread._WorkItem object at 0x7faf0277e1f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7faf0277e1f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7faf02771bd0>, <grpc._server._RPCState object at 0x7faf0276ea00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7faf0277e1f0>
+             │    └ <function _unary_response_in_pool at 0x7faf0276d040>
+             └ <concurrent.futures.thread._WorkItem object at 0x7faf0277e1f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7faf02743760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7faf0276ea00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7faf02771bd0>
+                        └ <function _call_behavior at 0x7faf0276cc10>
+> File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7faf0277e580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7faf02743760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 93, in CreateOrder
+    if local_order_dict[orderSn]["code"] == grpc.StatusCode.OK:
+       │                │                   │    │          └ <StatusCode.OK: (0, 'ok')>
+       │                │                   │    └ <enum 'StatusCode'>
+       │                │                   └ <module 'grpc' from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/__init__.py'>
+       │                └ '202208021716291604'
+       └ {'202208021716291604': {}}
+
+KeyError: 'code'
+2022-08-02 17:16:29.325 | ERROR    | grpc._server:_call_behavior:443 - An error has been caught in function '_call_behavior', process 'MainProcess' (29356), thread 'ThreadPoolExecutor-0_0' (123145512230912):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7faefe6c2ca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145512230912)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7faefe6c29d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145512230912)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145512230912)>
+    │    │        │    └ (<weakref at 0x7faf0277f310; to 'ThreadPoolExecutor' at 0x7faf026ffb20>, <_queue.SimpleQueue object at 0x7faf02712e50>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145512230912)>
+    │    └ <function _worker at 0x7faf02726940>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145512230912)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7faf02726a60>
+    └ <concurrent.futures.thread._WorkItem object at 0x7faf0277e1f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7faf0277e1f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7faf02771bd0>, <grpc._server._RPCState object at 0x7faf0276ea00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7faf0277e1f0>
+             │    └ <function _unary_response_in_pool at 0x7faf0276d040>
+             └ <concurrent.futures.thread._WorkItem object at 0x7faf0277e1f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7faf02743760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7faf0276ea00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7faf02771bd0>
+                        └ <function _call_behavior at 0x7faf0276cc10>
+> File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7faf0277e580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7faf02743760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 93, in CreateOrder
+    if local_order_dict[orderSn]["code"] == grpc.StatusCode.OK:
+       │                │                   │    │          └ <StatusCode.OK: (0, 'ok')>
+       │                │                   │    └ <enum 'StatusCode'>
+       │                │                   └ <module 'grpc' from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/__init__.py'>
+       │                └ '202208021716291604'
+       └ {'202208021716291604': {}}
+
+KeyError: 'code'
+2022-08-02 17:16:32.584 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 17:16:32.584 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 17:16:32.584 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 17:55:49.062 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 17:55:49.062 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 17:55:49.062 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 17:55:53.149 | ERROR    | handler.order:local_execute:134 - An error has been caught in function 'local_execute', process 'MainProcess' (31604), thread 'ThreadPoolExecutor-0_0' (123145470398464):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fdf278e7ca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145470398464)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fdf278e79d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145470398464)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145470398464)>
+    │    │        │    └ (<weakref at 0x7fdf298a4130; to 'ThreadPoolExecutor' at 0x7fdf2983fb20>, <_queue.SimpleQueue object at 0x7fdf29841d10>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145470398464)>
+    │    └ <function _worker at 0x7fdf298559d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145470398464)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fdf29855af0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fdf298a21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fdf298a21f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7fdf298969f0>, <grpc._server._RPCState object at 0x7fdf29894a00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fdf298a21f0>
+             │    └ <function _unary_response_in_pool at 0x7fdf298930d0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fdf298a21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdf29872760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7fdf29894a00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7fdf298969f0>
+                        └ <function _call_behavior at 0x7fdf29891ca0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7fdf298a2580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdf29872760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 87, in CreateOrder
+    res = p.send_message_in_transaction(msg, self.local_execute, None)
+          │ │                           │    │    └ <function OrderServicer.local_execute at 0x7fdf29827a60>
+          │ │                           │    └ <handler.order.OrderServicer object at 0x7fdf29872760>
+          │ │                           └ <rocketmq.client.Message object at 0x7fdf298a26d0>
+          │ └ <function TransactionMQProducer.send_message_in_transaction at 0x7fdf28e1e3a0>
+          └ <rocketmq.client.TransactionMQProducer object at 0x7fdf298a25e0>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 336, in send_message_in_transaction
+    dll.SendMessageTransaction(self._handle,
+    │   │                      │    └ 105553180828704
+    │   │                      └ <rocketmq.client.TransactionMQProducer object at 0x7fdf298a25e0>
+    │   └ <_FuncPtr object at 0x7fdf28e11a00>
+    └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 20f896140 at 0x7fdf28e05df0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 317, in _on_local_execute
+    local_result = local_execute(py_message, usr_args)
+                   │             │           └ None
+                   │             └ <ReceivedMessage topic='transTopic' id='' body=b'{"order_sn": "202208021755521647", "user_id": 1, "signer_name": "\\u6bb5\\u8...
+                   └ <bound method OrderServicer.local_execute of <handler.order.OrderServicer object at 0x7fdf29872760>>
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 134, in local_execute
+    client = self._grpcClient(cfg["goods"]["name"])
+             │    │           └ {'name': 'order-dao', 'host': '192.168.8.222', 'port': 4347, 'consul': {'host': '192.168.8.222', 'port': 8500, 'tags': ['gpma...
+             │    └ <function OrderServicer._grpcClient at 0x7fdf298273a0>
+             └ <handler.order.OrderServicer object at 0x7fdf29872760>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 47, in _grpcClient
+    host, port = client.services_filter(f'Service=="{srv_name}"')
+                 │      └ <function Consul.services_filter at 0x7fdf2981b310>
+                 └ <common.consul.consul.Consul object at 0x7fdf298b9700>
+
+TypeError: cannot unpack non-iterable NoneType object
+2022-08-02 17:55:53.149 | ERROR    | handler.order:local_execute:134 - An error has been caught in function 'local_execute', process 'MainProcess' (31604), thread 'ThreadPoolExecutor-0_0' (123145470398464):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fdf278e7ca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145470398464)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fdf278e79d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145470398464)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145470398464)>
+    │    │        │    └ (<weakref at 0x7fdf298a4130; to 'ThreadPoolExecutor' at 0x7fdf2983fb20>, <_queue.SimpleQueue object at 0x7fdf29841d10>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145470398464)>
+    │    └ <function _worker at 0x7fdf298559d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145470398464)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fdf29855af0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fdf298a21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fdf298a21f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7fdf298969f0>, <grpc._server._RPCState object at 0x7fdf29894a00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fdf298a21f0>
+             │    └ <function _unary_response_in_pool at 0x7fdf298930d0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fdf298a21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdf29872760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7fdf29894a00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7fdf298969f0>
+                        └ <function _call_behavior at 0x7fdf29891ca0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7fdf298a2580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdf29872760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 87, in CreateOrder
+    res = p.send_message_in_transaction(msg, self.local_execute, None)
+          │ │                           │    │    └ <function OrderServicer.local_execute at 0x7fdf29827a60>
+          │ │                           │    └ <handler.order.OrderServicer object at 0x7fdf29872760>
+          │ │                           └ <rocketmq.client.Message object at 0x7fdf298a26d0>
+          │ └ <function TransactionMQProducer.send_message_in_transaction at 0x7fdf28e1e3a0>
+          └ <rocketmq.client.TransactionMQProducer object at 0x7fdf298a25e0>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 336, in send_message_in_transaction
+    dll.SendMessageTransaction(self._handle,
+    │   │                      │    └ 105553180828704
+    │   │                      └ <rocketmq.client.TransactionMQProducer object at 0x7fdf298a25e0>
+    │   └ <_FuncPtr object at 0x7fdf28e11a00>
+    └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 20f896140 at 0x7fdf28e05df0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 317, in _on_local_execute
+    local_result = local_execute(py_message, usr_args)
+                   │             │           └ None
+                   │             └ <ReceivedMessage topic='transTopic' id='' body=b'{"order_sn": "202208021755521647", "user_id": 1, "signer_name": "\\u6bb5\\u8...
+                   └ <bound method OrderServicer.local_execute of <handler.order.OrderServicer object at 0x7fdf29872760>>
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 134, in local_execute
+    client = self._grpcClient(cfg["goods"]["name"])
+             │    │           └ {'name': 'order-dao', 'host': '192.168.8.222', 'port': 4347, 'consul': {'host': '192.168.8.222', 'port': 8500, 'tags': ['gpma...
+             │    └ <function OrderServicer._grpcClient at 0x7fdf298273a0>
+             └ <handler.order.OrderServicer object at 0x7fdf29872760>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 47, in _grpcClient
+    host, port = client.services_filter(f'Service=="{srv_name}"')
+                 │      └ <function Consul.services_filter at 0x7fdf2981b310>
+                 └ <common.consul.consul.Consul object at 0x7fdf298b9700>
+
+TypeError: cannot unpack non-iterable NoneType object
+2022-08-02 17:55:53.149 | ERROR    | handler.order:local_execute:134 - An error has been caught in function 'local_execute', process 'MainProcess' (31604), thread 'ThreadPoolExecutor-0_0' (123145470398464):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fdf278e7ca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145470398464)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fdf278e79d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145470398464)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145470398464)>
+    │    │        │    └ (<weakref at 0x7fdf298a4130; to 'ThreadPoolExecutor' at 0x7fdf2983fb20>, <_queue.SimpleQueue object at 0x7fdf29841d10>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145470398464)>
+    │    └ <function _worker at 0x7fdf298559d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145470398464)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fdf29855af0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fdf298a21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fdf298a21f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7fdf298969f0>, <grpc._server._RPCState object at 0x7fdf29894a00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fdf298a21f0>
+             │    └ <function _unary_response_in_pool at 0x7fdf298930d0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fdf298a21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdf29872760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7fdf29894a00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7fdf298969f0>
+                        └ <function _call_behavior at 0x7fdf29891ca0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7fdf298a2580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdf29872760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 87, in CreateOrder
+    res = p.send_message_in_transaction(msg, self.local_execute, None)
+          │ │                           │    │    └ <function OrderServicer.local_execute at 0x7fdf29827a60>
+          │ │                           │    └ <handler.order.OrderServicer object at 0x7fdf29872760>
+          │ │                           └ <rocketmq.client.Message object at 0x7fdf298a26d0>
+          │ └ <function TransactionMQProducer.send_message_in_transaction at 0x7fdf28e1e3a0>
+          └ <rocketmq.client.TransactionMQProducer object at 0x7fdf298a25e0>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 336, in send_message_in_transaction
+    dll.SendMessageTransaction(self._handle,
+    │   │                      │    └ 105553180828704
+    │   │                      └ <rocketmq.client.TransactionMQProducer object at 0x7fdf298a25e0>
+    │   └ <_FuncPtr object at 0x7fdf28e11a00>
+    └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 20f896140 at 0x7fdf28e05df0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 317, in _on_local_execute
+    local_result = local_execute(py_message, usr_args)
+                   │             │           └ None
+                   │             └ <ReceivedMessage topic='transTopic' id='' body=b'{"order_sn": "202208021755521647", "user_id": 1, "signer_name": "\\u6bb5\\u8...
+                   └ <bound method OrderServicer.local_execute of <handler.order.OrderServicer object at 0x7fdf29872760>>
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 134, in local_execute
+    client = self._grpcClient(cfg["goods"]["name"])
+             │    │           └ {'name': 'order-dao', 'host': '192.168.8.222', 'port': 4347, 'consul': {'host': '192.168.8.222', 'port': 8500, 'tags': ['gpma...
+             │    └ <function OrderServicer._grpcClient at 0x7fdf298273a0>
+             └ <handler.order.OrderServicer object at 0x7fdf29872760>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 47, in _grpcClient
+    host, port = client.services_filter(f'Service=="{srv_name}"')
+                 │      └ <function Consul.services_filter at 0x7fdf2981b310>
+                 └ <common.consul.consul.Consul object at 0x7fdf298b9700>
+
+TypeError: cannot unpack non-iterable NoneType object
+2022-08-02 17:55:59.808 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 17:55:59.808 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 17:55:59.808 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 18:28:40.376 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 18:28:40.376 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 18:28:40.376 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 18:28:44.883 | ERROR    | handler.order:local_execute:134 - An error has been caught in function 'local_execute', process 'MainProcess' (33520), thread 'ThreadPoolExecutor-0_0' (123145480966144):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fdb95cbaca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145480966144)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fdb95cba9d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145480966144)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145480966144)>
+    │    │        │    └ (<weakref at 0x7fdb98fa4180; to 'ThreadPoolExecutor' at 0x7fdb98f3fb20>, <_queue.SimpleQueue object at 0x7fdb98f41d10>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145480966144)>
+    │    └ <function _worker at 0x7fdb98f549d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145480966144)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fdb98f54af0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fdb98fa21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fdb98fa21f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7fdb98f96a40>, <grpc._server._RPCState object at 0x7fdb98f94a00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fdb98fa21f0>
+             │    └ <function _unary_response_in_pool at 0x7fdb98f930d0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fdb98fa21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdb98f72760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7fdb98f94a00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7fdb98f96a40>
+                        └ <function _call_behavior at 0x7fdb98f91ca0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7fdb98fa2580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdb98f72760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 87, in CreateOrder
+    res = p.send_message_in_transaction(msg, self.local_execute, None)
+          │ │                           │    │    └ <function OrderServicer.local_execute at 0x7fdb98f27a60>
+          │ │                           │    └ <handler.order.OrderServicer object at 0x7fdb98f72760>
+          │ │                           └ <rocketmq.client.Message object at 0x7fdb98fa26d0>
+          │ └ <function TransactionMQProducer.send_message_in_transaction at 0x7fdb98c1e3a0>
+          └ <rocketmq.client.TransactionMQProducer object at 0x7fdb98fa25e0>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 336, in send_message_in_transaction
+    dll.SendMessageTransaction(self._handle,
+    │   │                      │    └ 105553180787840
+    │   │                      └ <rocketmq.client.TransactionMQProducer object at 0x7fdb98fa25e0>
+    │   └ <_FuncPtr object at 0x7fdb98c11a00>
+    └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 201a56140 at 0x7fdb98c05e20>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 317, in _on_local_execute
+    local_result = local_execute(py_message, usr_args)
+                   │             │           └ None
+                   │             └ <ReceivedMessage topic='transTopic' id='' body=b'{"order_sn": "202208021828441535", "user_id": 1, "signer_name": "\\u6bb5\\u8...
+                   └ <bound method OrderServicer.local_execute of <handler.order.OrderServicer object at 0x7fdb98f72760>>
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 134, in local_execute
+    client = self._grpcClient(cfg["goods"]["name"])
+             │    │           └ {'name': 'order-dao', 'host': '192.168.8.222', 'port': 4347, 'consul': {'host': '192.168.8.222', 'port': 8500, 'tags': ['gpma...
+             │    └ <function OrderServicer._grpcClient at 0x7fdb98f273a0>
+             └ <handler.order.OrderServicer object at 0x7fdb98f72760>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 47, in _grpcClient
+    host, port = client.services_filter(f'Service=="{srv_name}"')
+                 │      └ <function Consul.services_filter at 0x7fdb98f1b310>
+                 └ <common.consul.consul.Consul object at 0x7fdb98fb9700>
+
+TypeError: cannot unpack non-iterable NoneType object
+2022-08-02 18:28:44.883 | ERROR    | handler.order:local_execute:134 - An error has been caught in function 'local_execute', process 'MainProcess' (33520), thread 'ThreadPoolExecutor-0_0' (123145480966144):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fdb95cbaca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145480966144)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fdb95cba9d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145480966144)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145480966144)>
+    │    │        │    └ (<weakref at 0x7fdb98fa4180; to 'ThreadPoolExecutor' at 0x7fdb98f3fb20>, <_queue.SimpleQueue object at 0x7fdb98f41d10>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145480966144)>
+    │    └ <function _worker at 0x7fdb98f549d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145480966144)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fdb98f54af0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fdb98fa21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fdb98fa21f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7fdb98f96a40>, <grpc._server._RPCState object at 0x7fdb98f94a00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fdb98fa21f0>
+             │    └ <function _unary_response_in_pool at 0x7fdb98f930d0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fdb98fa21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdb98f72760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7fdb98f94a00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7fdb98f96a40>
+                        └ <function _call_behavior at 0x7fdb98f91ca0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7fdb98fa2580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdb98f72760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 87, in CreateOrder
+    res = p.send_message_in_transaction(msg, self.local_execute, None)
+          │ │                           │    │    └ <function OrderServicer.local_execute at 0x7fdb98f27a60>
+          │ │                           │    └ <handler.order.OrderServicer object at 0x7fdb98f72760>
+          │ │                           └ <rocketmq.client.Message object at 0x7fdb98fa26d0>
+          │ └ <function TransactionMQProducer.send_message_in_transaction at 0x7fdb98c1e3a0>
+          └ <rocketmq.client.TransactionMQProducer object at 0x7fdb98fa25e0>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 336, in send_message_in_transaction
+    dll.SendMessageTransaction(self._handle,
+    │   │                      │    └ 105553180787840
+    │   │                      └ <rocketmq.client.TransactionMQProducer object at 0x7fdb98fa25e0>
+    │   └ <_FuncPtr object at 0x7fdb98c11a00>
+    └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 201a56140 at 0x7fdb98c05e20>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 317, in _on_local_execute
+    local_result = local_execute(py_message, usr_args)
+                   │             │           └ None
+                   │             └ <ReceivedMessage topic='transTopic' id='' body=b'{"order_sn": "202208021828441535", "user_id": 1, "signer_name": "\\u6bb5\\u8...
+                   └ <bound method OrderServicer.local_execute of <handler.order.OrderServicer object at 0x7fdb98f72760>>
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 134, in local_execute
+    client = self._grpcClient(cfg["goods"]["name"])
+             │    │           └ {'name': 'order-dao', 'host': '192.168.8.222', 'port': 4347, 'consul': {'host': '192.168.8.222', 'port': 8500, 'tags': ['gpma...
+             │    └ <function OrderServicer._grpcClient at 0x7fdb98f273a0>
+             └ <handler.order.OrderServicer object at 0x7fdb98f72760>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 47, in _grpcClient
+    host, port = client.services_filter(f'Service=="{srv_name}"')
+                 │      └ <function Consul.services_filter at 0x7fdb98f1b310>
+                 └ <common.consul.consul.Consul object at 0x7fdb98fb9700>
+
+TypeError: cannot unpack non-iterable NoneType object
+2022-08-02 18:28:44.883 | ERROR    | handler.order:local_execute:134 - An error has been caught in function 'local_execute', process 'MainProcess' (33520), thread 'ThreadPoolExecutor-0_0' (123145480966144):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fdb95cbaca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145480966144)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fdb95cba9d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145480966144)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145480966144)>
+    │    │        │    └ (<weakref at 0x7fdb98fa4180; to 'ThreadPoolExecutor' at 0x7fdb98f3fb20>, <_queue.SimpleQueue object at 0x7fdb98f41d10>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145480966144)>
+    │    └ <function _worker at 0x7fdb98f549d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145480966144)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fdb98f54af0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fdb98fa21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fdb98fa21f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7fdb98f96a40>, <grpc._server._RPCState object at 0x7fdb98f94a00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fdb98fa21f0>
+             │    └ <function _unary_response_in_pool at 0x7fdb98f930d0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fdb98fa21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdb98f72760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7fdb98f94a00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7fdb98f96a40>
+                        └ <function _call_behavior at 0x7fdb98f91ca0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7fdb98fa2580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fdb98f72760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 87, in CreateOrder
+    res = p.send_message_in_transaction(msg, self.local_execute, None)
+          │ │                           │    │    └ <function OrderServicer.local_execute at 0x7fdb98f27a60>
+          │ │                           │    └ <handler.order.OrderServicer object at 0x7fdb98f72760>
+          │ │                           └ <rocketmq.client.Message object at 0x7fdb98fa26d0>
+          │ └ <function TransactionMQProducer.send_message_in_transaction at 0x7fdb98c1e3a0>
+          └ <rocketmq.client.TransactionMQProducer object at 0x7fdb98fa25e0>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 336, in send_message_in_transaction
+    dll.SendMessageTransaction(self._handle,
+    │   │                      │    └ 105553180787840
+    │   │                      └ <rocketmq.client.TransactionMQProducer object at 0x7fdb98fa25e0>
+    │   └ <_FuncPtr object at 0x7fdb98c11a00>
+    └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 201a56140 at 0x7fdb98c05e20>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 317, in _on_local_execute
+    local_result = local_execute(py_message, usr_args)
+                   │             │           └ None
+                   │             └ <ReceivedMessage topic='transTopic' id='' body=b'{"order_sn": "202208021828441535", "user_id": 1, "signer_name": "\\u6bb5\\u8...
+                   └ <bound method OrderServicer.local_execute of <handler.order.OrderServicer object at 0x7fdb98f72760>>
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 134, in local_execute
+    client = self._grpcClient(cfg["goods"]["name"])
+             │    │           └ {'name': 'order-dao', 'host': '192.168.8.222', 'port': 4347, 'consul': {'host': '192.168.8.222', 'port': 8500, 'tags': ['gpma...
+             │    └ <function OrderServicer._grpcClient at 0x7fdb98f273a0>
+             └ <handler.order.OrderServicer object at 0x7fdb98f72760>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 47, in _grpcClient
+    host, port = client.services_filter(f'Service=="{srv_name}"')
+                 │      └ <function Consul.services_filter at 0x7fdb98f1b310>
+                 └ <common.consul.consul.Consul object at 0x7fdb98fb9700>
+
+TypeError: cannot unpack non-iterable NoneType object
+2022-08-02 19:06:16.167 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 19:06:16.167 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 19:06:16.167 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 19:09:48.169 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 19:09:48.169 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 19:09:48.169 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 19:09:54.489 | ERROR    | grpc._server:_call_behavior:443 - An error has been caught in function '_call_behavior', process 'MainProcess' (35842), thread 'ThreadPoolExecutor-0_0' (123145555439616):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f7ee00e7ca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145555439616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f7ee00e79d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145555439616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145555439616)>
+    │    │        │    └ (<weakref at 0x7f7ee1f84270; to 'ThreadPoolExecutor' at 0x7f7ee1f0eb20>, <_queue.SimpleQueue object at 0x7f7ee1f21db0>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145555439616)>
+    │    └ <function _worker at 0x7f7ee1f359d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145555439616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f7ee1f35af0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f7ee1f82100>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f7ee1f82100>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7f7ee1f76ea0>, <grpc._server._RPCState object at 0x7f7ee1f74c70>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f7ee1f82100>
+             │    └ <function _unary_response_in_pool at 0x7f7ee1f730d0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f7ee1f82100>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7f7ee1f52760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7f7ee1f74c70>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7f7ee1f76ea0>
+                        └ <function _call_behavior at 0x7f7ee1f71ca0>
+> File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7f7ee1f82190>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7f7ee1f52760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 93, in CreateOrder
+    if local_order_dict[orderSn]["code"] == grpc.StatusCode.OK:
+       │                │                   │    │          └ <StatusCode.OK: (0, 'ok')>
+       │                │                   │    └ <enum 'StatusCode'>
+       │                │                   └ <module 'grpc' from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/__init__.py'>
+       │                └ '202208021909541445'
+       └ {'202208021909541445': {}}
+
+KeyError: 'code'
+2022-08-02 19:09:54.489 | ERROR    | grpc._server:_call_behavior:443 - An error has been caught in function '_call_behavior', process 'MainProcess' (35842), thread 'ThreadPoolExecutor-0_0' (123145555439616):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f7ee00e7ca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145555439616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f7ee00e79d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145555439616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145555439616)>
+    │    │        │    └ (<weakref at 0x7f7ee1f84270; to 'ThreadPoolExecutor' at 0x7f7ee1f0eb20>, <_queue.SimpleQueue object at 0x7f7ee1f21db0>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145555439616)>
+    │    └ <function _worker at 0x7f7ee1f359d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145555439616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f7ee1f35af0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f7ee1f82100>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f7ee1f82100>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7f7ee1f76ea0>, <grpc._server._RPCState object at 0x7f7ee1f74c70>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f7ee1f82100>
+             │    └ <function _unary_response_in_pool at 0x7f7ee1f730d0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f7ee1f82100>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7f7ee1f52760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7f7ee1f74c70>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7f7ee1f76ea0>
+                        └ <function _call_behavior at 0x7f7ee1f71ca0>
+> File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7f7ee1f82190>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7f7ee1f52760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 93, in CreateOrder
+    if local_order_dict[orderSn]["code"] == grpc.StatusCode.OK:
+       │                │                   │    │          └ <StatusCode.OK: (0, 'ok')>
+       │                │                   │    └ <enum 'StatusCode'>
+       │                │                   └ <module 'grpc' from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/__init__.py'>
+       │                └ '202208021909541445'
+       └ {'202208021909541445': {}}
+
+KeyError: 'code'
+2022-08-02 19:09:54.489 | ERROR    | grpc._server:_call_behavior:443 - An error has been caught in function '_call_behavior', process 'MainProcess' (35842), thread 'ThreadPoolExecutor-0_0' (123145555439616):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7f7ee00e7ca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145555439616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7f7ee00e79d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145555439616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145555439616)>
+    │    │        │    └ (<weakref at 0x7f7ee1f84270; to 'ThreadPoolExecutor' at 0x7f7ee1f0eb20>, <_queue.SimpleQueue object at 0x7f7ee1f21db0>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145555439616)>
+    │    └ <function _worker at 0x7f7ee1f359d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145555439616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7f7ee1f35af0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7f7ee1f82100>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7f7ee1f82100>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7f7ee1f76ea0>, <grpc._server._RPCState object at 0x7f7ee1f74c70>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7f7ee1f82100>
+             │    └ <function _unary_response_in_pool at 0x7f7ee1f730d0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7f7ee1f82100>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7f7ee1f52760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7f7ee1f74c70>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7f7ee1f76ea0>
+                        └ <function _call_behavior at 0x7f7ee1f71ca0>
+> File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7f7ee1f82190>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7f7ee1f52760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 93, in CreateOrder
+    if local_order_dict[orderSn]["code"] == grpc.StatusCode.OK:
+       │                │                   │    │          └ <StatusCode.OK: (0, 'ok')>
+       │                │                   │    └ <enum 'StatusCode'>
+       │                │                   └ <module 'grpc' from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/__init__.py'>
+       │                └ '202208021909541445'
+       └ {'202208021909541445': {}}
+
+KeyError: 'code'
+2022-08-02 19:10:01.988 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 19:10:01.988 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 19:10:01.988 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:07:04.822 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:07:04.822 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:07:04.822 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:07:11.500 | ERROR    | grpc._server:_call_behavior:443 - An error has been caught in function '_call_behavior', process 'MainProcess' (38611), thread 'ThreadPoolExecutor-0_0' (123145476149248):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7ff09c6ccca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145476149248)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7ff09c6cc9d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145476149248)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145476149248)>
+    │    │        │    └ (<weakref at 0x7ff09ef7f130; to 'ThreadPoolExecutor' at 0x7ff09eeffb20>, <_queue.SimpleQueue object at 0x7ff09ef13cc0>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145476149248)>
+    │    └ <function _worker at 0x7ff09ef259d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145476149248)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7ff09ef25af0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7ff09ef7d1f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7ff09ef7d1f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7ff09ef719f0>, <grpc._server._RPCState object at 0x7ff09ef6fa00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7ff09ef7d1f0>
+             │    └ <function _unary_response_in_pool at 0x7ff09ef6e0d0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7ff09ef7d1f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7ff09ef43760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7ff09ef6fa00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7ff09ef719f0>
+                        └ <function _call_behavior at 0x7ff09ef6cca0>
+> File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7ff09ef7d580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7ff09ef43760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 93, in CreateOrder
+    if local_order_dict[orderSn]["code"] == grpc.StatusCode.OK:
+       │                │                   │    │          └ <StatusCode.OK: (0, 'ok')>
+       │                │                   │    └ <enum 'StatusCode'>
+       │                │                   └ <module 'grpc' from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/__init__.py'>
+       │                └ '202208022007111879'
+       └ {'202208022007111879': {}}
+
+KeyError: 'code'
+2022-08-02 20:07:11.500 | ERROR    | grpc._server:_call_behavior:443 - An error has been caught in function '_call_behavior', process 'MainProcess' (38611), thread 'ThreadPoolExecutor-0_0' (123145476149248):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7ff09c6ccca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145476149248)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7ff09c6cc9d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145476149248)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145476149248)>
+    │    │        │    └ (<weakref at 0x7ff09ef7f130; to 'ThreadPoolExecutor' at 0x7ff09eeffb20>, <_queue.SimpleQueue object at 0x7ff09ef13cc0>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145476149248)>
+    │    └ <function _worker at 0x7ff09ef259d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145476149248)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7ff09ef25af0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7ff09ef7d1f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7ff09ef7d1f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7ff09ef719f0>, <grpc._server._RPCState object at 0x7ff09ef6fa00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7ff09ef7d1f0>
+             │    └ <function _unary_response_in_pool at 0x7ff09ef6e0d0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7ff09ef7d1f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7ff09ef43760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7ff09ef6fa00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7ff09ef719f0>
+                        └ <function _call_behavior at 0x7ff09ef6cca0>
+> File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7ff09ef7d580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7ff09ef43760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 93, in CreateOrder
+    if local_order_dict[orderSn]["code"] == grpc.StatusCode.OK:
+       │                │                   │    │          └ <StatusCode.OK: (0, 'ok')>
+       │                │                   │    └ <enum 'StatusCode'>
+       │                │                   └ <module 'grpc' from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/__init__.py'>
+       │                └ '202208022007111879'
+       └ {'202208022007111879': {}}
+
+KeyError: 'code'
+2022-08-02 20:07:11.500 | ERROR    | grpc._server:_call_behavior:443 - An error has been caught in function '_call_behavior', process 'MainProcess' (38611), thread 'ThreadPoolExecutor-0_0' (123145476149248):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7ff09c6ccca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145476149248)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7ff09c6cc9d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145476149248)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145476149248)>
+    │    │        │    └ (<weakref at 0x7ff09ef7f130; to 'ThreadPoolExecutor' at 0x7ff09eeffb20>, <_queue.SimpleQueue object at 0x7ff09ef13cc0>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145476149248)>
+    │    └ <function _worker at 0x7ff09ef259d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145476149248)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7ff09ef25af0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7ff09ef7d1f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7ff09ef7d1f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7ff09ef719f0>, <grpc._server._RPCState object at 0x7ff09ef6fa00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7ff09ef7d1f0>
+             │    └ <function _unary_response_in_pool at 0x7ff09ef6e0d0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7ff09ef7d1f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7ff09ef43760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7ff09ef6fa00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7ff09ef719f0>
+                        └ <function _call_behavior at 0x7ff09ef6cca0>
+> File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7ff09ef7d580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7ff09ef43760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 93, in CreateOrder
+    if local_order_dict[orderSn]["code"] == grpc.StatusCode.OK:
+       │                │                   │    │          └ <StatusCode.OK: (0, 'ok')>
+       │                │                   │    └ <enum 'StatusCode'>
+       │                │                   └ <module 'grpc' from '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/__init__.py'>
+       │                └ '202208022007111879'
+       └ {'202208022007111879': {}}
+
+KeyError: 'code'
+2022-08-02 20:07:16.425 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:07:16.425 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:07:16.425 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:21:48.425 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:21:48.425 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:21:48.425 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:21:54.061 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:21:54.061 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:21:54.061 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:23:04.585 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:23:04.585 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:23:04.585 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:23:25.444 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:23:25.444 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:23:25.444 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:23:45.590 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:23:45.590 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:23:45.590 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:23:54.373 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:23:54.373 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:23:54.373 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:41:13.519 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:41:13.519 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:41:13.519 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:41:37.845 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:41:37.845 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:41:37.845 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:44:40.730 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:44:40.730 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:44:40.730 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:44:43.785 | ERROR    | handler.order:local_execute:135 - An error has been caught in function 'local_execute', process 'MainProcess' (40773), thread 'ThreadPoolExecutor-0_0' (123145515503616):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fafcffccca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145515503616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fafcffcc9d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145515503616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145515503616)>
+    │    │        │    └ (<weakref at 0x7fafd3fa4220; to 'ThreadPoolExecutor' at 0x7fafd3f3fb20>, <_queue.SimpleQueue object at 0x7fafd3f41db0>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145515503616)>
+    │    └ <function _worker at 0x7fafd3f569d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145515503616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fafd3f56af0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fafd3fa21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fafd3fa21f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7fafd3f96cc0>, <grpc._server._RPCState object at 0x7fafd3f94a00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fafd3fa21f0>
+             │    └ <function _unary_response_in_pool at 0x7fafd3f930d0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fafd3fa21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fafd3f72760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7fafd3f94a00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7fafd3f96cc0>
+                        └ <function _call_behavior at 0x7fafd3f91ca0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7fafd3fa2580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fafd3f72760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 87, in CreateOrder
+    res = p.send_message_in_transaction(msg, self.local_execute, None)
+          │ │                           │    │    └ <function OrderServicer.local_execute at 0x7fafd3f27a60>
+          │ │                           │    └ <handler.order.OrderServicer object at 0x7fafd3f72760>
+          │ │                           └ <rocketmq.client.Message object at 0x7fafd3fa26d0>
+          │ └ <function TransactionMQProducer.send_message_in_transaction at 0x7fafd3d1e3a0>
+          └ <rocketmq.client.TransactionMQProducer object at 0x7fafd3fa25e0>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 336, in send_message_in_transaction
+    dll.SendMessageTransaction(self._handle,
+    │   │                      │    └ 105553157795264
+    │   │                      └ <rocketmq.client.TransactionMQProducer object at 0x7fafd3fa25e0>
+    │   └ <_FuncPtr object at 0x7fafd3d11a00>
+    └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 2178c8140 at 0x7fafd3d05e20>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 317, in _on_local_execute
+    local_result = local_execute(py_message, usr_args)
+                   │             │           └ None
+                   │             └ <unprintable ReceivedMessage object>
+                   └ <bound method OrderServicer.local_execute of <handler.order.OrderServicer object at 0x7fafd3f72760>>
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 135, in local_execute
+    client = self._grpcClient(cfg["goods"]["name"])
+             │    │           └ {'name': 'order-dao', 'host': '192.168.8.222', 'port': 4347, 'consul': {'host': '192.168.8.222', 'port': 8500, 'tags': ['gpma...
+             │    └ <function OrderServicer._grpcClient at 0x7fafd3f273a0>
+             └ <handler.order.OrderServicer object at 0x7fafd3f72760>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 47, in _grpcClient
+    host, port = client.services_filter(f'Service=="{srv_name}"')
+                 │      └ <function Consul.services_filter at 0x7fafd3f1b310>
+                 └ <common.consul.consul.Consul object at 0x7fafd3fb9730>
+
+TypeError: cannot unpack non-iterable NoneType object
+2022-08-02 20:44:43.785 | ERROR    | handler.order:local_execute:135 - An error has been caught in function 'local_execute', process 'MainProcess' (40773), thread 'ThreadPoolExecutor-0_0' (123145515503616):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fafcffccca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145515503616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fafcffcc9d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145515503616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145515503616)>
+    │    │        │    └ (<weakref at 0x7fafd3fa4220; to 'ThreadPoolExecutor' at 0x7fafd3f3fb20>, <_queue.SimpleQueue object at 0x7fafd3f41db0>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145515503616)>
+    │    └ <function _worker at 0x7fafd3f569d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145515503616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fafd3f56af0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fafd3fa21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fafd3fa21f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7fafd3f96cc0>, <grpc._server._RPCState object at 0x7fafd3f94a00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fafd3fa21f0>
+             │    └ <function _unary_response_in_pool at 0x7fafd3f930d0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fafd3fa21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fafd3f72760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7fafd3f94a00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7fafd3f96cc0>
+                        └ <function _call_behavior at 0x7fafd3f91ca0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7fafd3fa2580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fafd3f72760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 87, in CreateOrder
+    res = p.send_message_in_transaction(msg, self.local_execute, None)
+          │ │                           │    │    └ <function OrderServicer.local_execute at 0x7fafd3f27a60>
+          │ │                           │    └ <handler.order.OrderServicer object at 0x7fafd3f72760>
+          │ │                           └ <rocketmq.client.Message object at 0x7fafd3fa26d0>
+          │ └ <function TransactionMQProducer.send_message_in_transaction at 0x7fafd3d1e3a0>
+          └ <rocketmq.client.TransactionMQProducer object at 0x7fafd3fa25e0>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 336, in send_message_in_transaction
+    dll.SendMessageTransaction(self._handle,
+    │   │                      │    └ 105553157795264
+    │   │                      └ <rocketmq.client.TransactionMQProducer object at 0x7fafd3fa25e0>
+    │   └ <_FuncPtr object at 0x7fafd3d11a00>
+    └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 2178c8140 at 0x7fafd3d05e20>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 317, in _on_local_execute
+    local_result = local_execute(py_message, usr_args)
+                   │             │           └ None
+                   │             └ <unprintable ReceivedMessage object>
+                   └ <bound method OrderServicer.local_execute of <handler.order.OrderServicer object at 0x7fafd3f72760>>
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 135, in local_execute
+    client = self._grpcClient(cfg["goods"]["name"])
+             │    │           └ {'name': 'order-dao', 'host': '192.168.8.222', 'port': 4347, 'consul': {'host': '192.168.8.222', 'port': 8500, 'tags': ['gpma...
+             │    └ <function OrderServicer._grpcClient at 0x7fafd3f273a0>
+             └ <handler.order.OrderServicer object at 0x7fafd3f72760>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 47, in _grpcClient
+    host, port = client.services_filter(f'Service=="{srv_name}"')
+                 │      └ <function Consul.services_filter at 0x7fafd3f1b310>
+                 └ <common.consul.consul.Consul object at 0x7fafd3fb9730>
+
+TypeError: cannot unpack non-iterable NoneType object
+2022-08-02 20:44:43.785 | ERROR    | handler.order:local_execute:135 - An error has been caught in function 'local_execute', process 'MainProcess' (40773), thread 'ThreadPoolExecutor-0_0' (123145515503616):
+Traceback (most recent call last):
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 930, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x7fafcffccca0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145515503616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x7fafcffcc9d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145515503616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145515503616)>
+    │    │        │    └ (<weakref at 0x7fafd3fa4220; to 'ThreadPoolExecutor' at 0x7fafd3f3fb20>, <_queue.SimpleQueue object at 0x7fafd3f41db0>, None,...
+    │    │        └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145515503616)>
+    │    └ <function _worker at 0x7fafd3f569d0>
+    └ <Thread(ThreadPoolExecutor-0_0, started daemon 123145515503616)>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 77, in _worker
+    work_item.run()
+    │         └ <function _WorkItem.run at 0x7fafd3f56af0>
+    └ <concurrent.futures.thread._WorkItem object at 0x7fafd3fa21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │    │   │    │       │    └ {}
+             │    │   │    │       └ <concurrent.futures.thread._WorkItem object at 0x7fafd3fa21f0>
+             │    │   │    └ (<grpc._cython.cygrpc.RequestCallEvent object at 0x7fafd3f96cc0>, <grpc._server._RPCState object at 0x7fafd3f94a00>, <bound m...
+             │    │   └ <concurrent.futures.thread._WorkItem object at 0x7fafd3fa21f0>
+             │    └ <function _unary_response_in_pool at 0x7fafd3f930d0>
+             └ <concurrent.futures.thread._WorkItem object at 0x7fafd3fa21f0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 560, in _unary_response_in_pool
+    response, proceed = _call_behavior(rpc_event, state, behavior,
+                        │              │          │      └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fafd3f72760>>
+                        │              │          └ <grpc._server._RPCState object at 0x7fafd3f94a00>
+                        │              └ <grpc._cython.cygrpc.RequestCallEvent object at 0x7fafd3f96cc0>
+                        └ <function _call_behavior at 0x7fafd3f91ca0>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/grpc/_server.py", line 443, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           │        │         └ <grpc._server._Context object at 0x7fafd3fa2580>
+                           │        └ user_id: 1
+                           │          name: "\346\256\265\350\266\205123"
+                           │          mobile: "18612917508"
+                           │          address: "\345\215\216\344\270\2551code"
+                           │          
+                           └ <bound method OrderServicer.CreateOrder of <handler.order.OrderServicer object at 0x7fafd3f72760>>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 87, in CreateOrder
+    res = p.send_message_in_transaction(msg, self.local_execute, None)
+          │ │                           │    │    └ <function OrderServicer.local_execute at 0x7fafd3f27a60>
+          │ │                           │    └ <handler.order.OrderServicer object at 0x7fafd3f72760>
+          │ │                           └ <rocketmq.client.Message object at 0x7fafd3fa26d0>
+          │ └ <function TransactionMQProducer.send_message_in_transaction at 0x7fafd3d1e3a0>
+          └ <rocketmq.client.TransactionMQProducer object at 0x7fafd3fa25e0>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 336, in send_message_in_transaction
+    dll.SendMessageTransaction(self._handle,
+    │   │                      │    └ 105553157795264
+    │   │                      └ <rocketmq.client.TransactionMQProducer object at 0x7fafd3fa25e0>
+    │   └ <_FuncPtr object at 0x7fafd3d11a00>
+    └ <CDLL '/usr/local/lib/librocketmq.dylib', handle 2178c8140 at 0x7fafd3d05e20>
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/rocketmq/client.py", line 317, in _on_local_execute
+    local_result = local_execute(py_message, usr_args)
+                   │             │           └ None
+                   │             └ <unprintable ReceivedMessage object>
+                   └ <bound method OrderServicer.local_execute of <handler.order.OrderServicer object at 0x7fafd3f72760>>
+
+> File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 135, in local_execute
+    client = self._grpcClient(cfg["goods"]["name"])
+             │    │           └ {'name': 'order-dao', 'host': '192.168.8.222', 'port': 4347, 'consul': {'host': '192.168.8.222', 'port': 8500, 'tags': ['gpma...
+             │    └ <function OrderServicer._grpcClient at 0x7fafd3f273a0>
+             └ <handler.order.OrderServicer object at 0x7fafd3f72760>
+
+  File "/Users/www/learn-note/gpmall/daoServer/order/handler/order.py", line 47, in _grpcClient
+    host, port = client.services_filter(f'Service=="{srv_name}"')
+                 │      └ <function Consul.services_filter at 0x7fafd3f1b310>
+                 └ <common.consul.consul.Consul object at 0x7fafd3fb9730>
+
+TypeError: cannot unpack non-iterable NoneType object
+2022-08-02 20:44:49.044 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:44:49.044 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:44:49.044 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:55:45.624 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:55:45.624 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:55:45.624 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:56:04.163 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:56:04.163 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:56:04.163 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:56:30.048 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:56:30.048 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:56:30.048 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:56:40.054 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:56:40.054 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:56:40.054 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:57:15.839 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:57:15.839 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:57:15.839 | INFO     | __main__:run:43 - service start...: 192.168.8.222:4347
+2022-08-02 20:57:32.782 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:57:32.782 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347
+2022-08-02 20:57:32.782 | INFO     | __main__:f:72 - 退出订单服务 service stop...:192.168.8.222:4347

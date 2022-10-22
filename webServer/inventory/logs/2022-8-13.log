@@ -1,0 +1,18 @@
+2022-08-13T17:46:36.813+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: bc24c612-14ca-4482-a495-b038bea0c87d
+2022-08-13T21:52:03.785+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: 7efa2778-edec-4433-840a-2368d0fef450
+2022-08-13T21:52:19.428+0800	DEBUG	initialize/consul.go:48	inventory-web 服务注销成功: 7efa2778-edec-4433-840a-2368d0fef450
+2022-08-13T21:54:11.877+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: d6461908-06df-4e02-b469-37ef146fc858
+2022-08-13T21:55:41.363+0800	DEBUG	initialize/consul.go:48	inventory-web 服务注销成功: d6461908-06df-4e02-b469-37ef146fc858
+2022-08-13T22:33:29.963+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: e29e40c4-e90c-45b1-a676-5e0da669fb63
+2022-08-13T22:33:46.464+0800	DEBUG	initialize/consul.go:48	inventory-web 服务注销成功: e29e40c4-e90c-45b1-a676-5e0da669fb63
+2022-08-13T22:37:31.895+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: a3a04dc8-096d-44c5-bad7-ac110311ae34
+2022-08-13T22:37:56.989+0800	DEBUG	initialize/consul.go:48	inventory-web 服务注销成功: a3a04dc8-096d-44c5-bad7-ac110311ae34
+2022-08-13T22:38:25.563+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: 626ac8fe-17c4-4110-8c42-a57b2f3ab97b
+2022-08-13T22:38:35.946+0800	DEBUG	initialize/consul.go:48	inventory-web 服务注销成功: 626ac8fe-17c4-4110-8c42-a57b2f3ab97b
+2022-08-13T22:42:48.209+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: 7006a2ff-e132-491d-958e-0e5b126a39f4
+2022-08-13T22:43:00.355+0800	DEBUG	initialize/consul.go:48	inventory-web 服务注销成功: 7006a2ff-e132-491d-958e-0e5b126a39f4
+2022-08-13T22:47:40.984+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: b8428fbf-e272-46e7-a80d-3172e794d02b
+2022-08-13T22:47:50.770+0800	DEBUG	initialize/consul.go:48	inventory-web 服务注销成功: b8428fbf-e272-46e7-a80d-3172e794d02b
+2022-08-13T22:49:01.181+0800	DEBUG	initialize/consul.go:32	inventory-web 服务注册成功: 9d2eb79c-842b-4762-bc69-c244c786909b
+2022-08-13T22:49:04.352+0800	DEBUG	api/inventory.go:124	grpc错误: Unavailable => last resolver error: produced zero addresses
+2022-08-13T22:49:47.904+0800	DEBUG	initialize/consul.go:48	inventory-web 服务注销成功: 9d2eb79c-842b-4762-bc69-c244c786909b
